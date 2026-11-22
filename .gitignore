@@ -1,0 +1,18 @@
+# Python
+.venv*/
+__pycache__/
+*.pyc
+.env
+
+# Node / dashboard
+node_modules/
+dashboard/dist/
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# ML
+models/*.pkl
+models/*.joblib
+.ipynb_checkpoints/

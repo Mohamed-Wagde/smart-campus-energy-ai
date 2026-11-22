@@ -1,0 +1,5 @@
+building_id,room_id,alert_count,main_waste_source,normal_baseline_kw,estimated_excess_kwh,priority,recommended_action,approval_required
+B01,R05,20,HVAC,0.15,24.191,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True
+B03,R20,20,HVAC,0.15,24.128,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True
+B03,R15,20,HVAC,0.15,24.05,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True
+B02,R10,20,HVAC,0.15,23.798,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True

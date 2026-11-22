@@ -1,0 +1,5 @@
+building_id,room_id,main_waste_source,estimated_excess_kwh,recommended_action,approval_required,approval_status,approved_by,approval_notes
+B01,R05,HVAC,24.191,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True,Approved,,
+B03,R20,HVAC,24.128,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True,Pending,,
+B03,R15,HVAC,24.05,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True,Pending,,
+B02,R10,HVAC,23.798,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True,Pending,,

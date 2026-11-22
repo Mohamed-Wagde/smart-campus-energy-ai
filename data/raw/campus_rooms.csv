@@ -1,0 +1,21 @@
+building_id,building_name,room_id,room_name,room_type,capacity
+B01,Engineering Building,R01,Room 01,Classroom,53
+B01,Engineering Building,R02,Room 02,Classroom,39
+B01,Engineering Building,R03,Room 03,Classroom,32
+B01,Engineering Building,R04,Room 04,Classroom,45
+B01,Engineering Building,R05,Room 05,Classroom,43
+B01,Engineering Building,R06,Room 06,Classroom,47
+B02,Science Building,R07,Room 01,Classroom,35
+B02,Science Building,R08,Room 02,Classroom,35
+B02,Science Building,R09,Room 03,Classroom,48
+B02,Science Building,R10,Room 04,Classroom,60
+B02,Science Building,R11,Room 05,Classroom,48
+B02,Science Building,R12,Room 06,Classroom,27
+B02,Science Building,R13,Room 07,Classroom,46
+B03,Administration Building,R14,Room 01,Classroom,26
+B03,Administration Building,R15,Room 02,Classroom,48
+B03,Administration Building,R16,Room 03,Classroom,54
+B03,Administration Building,R17,Room 04,Classroom,26
+B03,Administration Building,R18,Room 05,Classroom,45
+B03,Administration Building,R19,Room 06,Classroom,57
+B03,Administration Building,R20,Room 07,Classroom,36

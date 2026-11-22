@@ -1,0 +1,28 @@
+
+:root {
+  font-family: "Inter", sans-serif;
+  color: #202b3c;
+  background: #f6f8fc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button, input, select {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
