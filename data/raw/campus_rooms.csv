@@ -1,21 +1,25 @@
 building_id,building_name,room_id,room_name,room_type,capacity
-B01,Engineering Building,R01,Room 01,Classroom,53
-B01,Engineering Building,R02,Room 02,Classroom,39
-B01,Engineering Building,R03,Room 03,Classroom,32
-B01,Engineering Building,R04,Room 04,Classroom,45
-B01,Engineering Building,R05,Room 05,Classroom,43
-B01,Engineering Building,R06,Room 06,Classroom,47
-B02,Science Building,R07,Room 01,Classroom,35
-B02,Science Building,R08,Room 02,Classroom,35
-B02,Science Building,R09,Room 03,Classroom,48
-B02,Science Building,R10,Room 04,Classroom,60
-B02,Science Building,R11,Room 05,Classroom,48
-B02,Science Building,R12,Room 06,Classroom,27
-B02,Science Building,R13,Room 07,Classroom,46
-B03,Administration Building,R14,Room 01,Classroom,26
-B03,Administration Building,R15,Room 02,Classroom,48
-B03,Administration Building,R16,Room 03,Classroom,54
-B03,Administration Building,R17,Room 04,Classroom,26
-B03,Administration Building,R18,Room 05,Classroom,45
-B03,Administration Building,R19,Room 06,Classroom,57
-B03,Administration Building,R20,Room 07,Classroom,36
+B01,Engineering Building,R01,Classroom 01,Classroom,28
+B01,Engineering Building,R02,Classroom 02,Classroom,52
+B01,Engineering Building,R03,Classroom 03,Classroom,48
+B01,Engineering Building,R04,Classroom 04,Classroom,40
+B01,Engineering Building,R05,Classroom 05,Classroom,40
+B01,Engineering Building,R06,Lab 01,Lab,33
+B01,Engineering Building,R07,Lab 02,Lab,21
+B01,Engineering Building,R08,Lecture Hall 01,Lecture Hall,176
+B02,Science Building,R09,Classroom 01,Classroom,32
+B02,Science Building,R10,Classroom 02,Classroom,28
+B02,Science Building,R11,Classroom 03,Classroom,43
+B02,Science Building,R12,Classroom 04,Classroom,60
+B02,Science Building,R13,Lab 01,Lab,31
+B02,Science Building,R14,Lab 02,Lab,32
+B02,Science Building,R15,Lab 03,Lab,31
+B02,Science Building,R16,Lecture Hall 01,Lecture Hall,183
+B03,Administration Building,R17,Office 01,Office,8
+B03,Administration Building,R18,Office 02,Office,5
+B03,Administration Building,R19,Office 03,Office,11
+B03,Administration Building,R20,Office 04,Office,8
+B03,Administration Building,R21,Office 05,Office,8
+B03,Administration Building,R22,Office 06,Office,7
+B03,Administration Building,R23,Meeting Room 01,Meeting Room,10
+B03,Administration Building,R24,Meeting Room 02,Meeting Room,20
