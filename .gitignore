@@ -9,3 +9,4 @@ dashboard/dist/
 models/*.pkl
 models/*.joblib
 .vscode/
+!models/peak_demand_model.joblib

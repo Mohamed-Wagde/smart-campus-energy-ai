@@ -1,0 +1,3 @@
+scenario,approved_recommendations,rooms_simulated,eligible_records,original_energy_kwh,simulated_energy_kwh,estimated_savings_kwh,savings_percentage
+Smart Reduction,0,0,0,0.0,0.0,0.0,0.0
+Baseline Reduction,0,0,0,0.0,0.0,0.0,0.0

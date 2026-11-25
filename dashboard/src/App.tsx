@@ -34,6 +34,9 @@ import {
   type RecommendationRecord,
 } from "./api";
 import "./App.css";
+import V2Management from "./V2Management";
+import CampusExperience from "./CampusExperience";
+import BuildingDashboard from "./BuildingDashboard";
 
 function AnimatedNumber({
   value,
@@ -102,6 +105,13 @@ function App() {
   const [dashboard, setDashboard] = useState<DashboardData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+  const [workspaceView, setWorkspaceView] = useState<
+  "campus" | "building" | "management" | "legacy"
+>("legacy");
+
+const [selectedBuildingId, setSelectedBuildingId] = useState<string | null>(
+  null
+);
 
   useEffect(() => {
     let mounted = true;
@@ -227,26 +237,41 @@ function App() {
 
         <div className="nav-label">WORKSPACE</div>
         <nav className="navigation">
-          <a className="nav-item active" href="#overview">
-            <LayoutDashboard size={19} /> <span>Overview</span>
-          </a>
-          <a className="nav-item" href="#buildings">
-            <Building2 size={19} /> <span>Buildings & Rooms</span>
-          </a>
-          <a className="nav-item" href="#analytics">
-            <Activity size={19} /> <span>Energy Analytics</span>
-          </a>
-          <a className="nav-item" href="#alerts">
-            <Bell size={19} /> <span>Alerts & Anomalies</span>
-            {dashboard && (
-              <span className="nav-count">
-                {dashboard.overview.active_alerts}
-              </span>
-            )}
-          </a>
-          <a className="nav-item" href="#recommendations">
-            <Lightbulb size={19} /> <span>Recommendations</span>
-          </a>
+          <button
+            className={`nav-item ${workspaceView === "legacy" ? "active" : ""}`}
+            onClick={() => {
+              setWorkspaceView("legacy");
+              setSidebarOpen(false);
+            }}
+            style={{ width: "100%", border: 0, background: undefined, cursor: "pointer", textAlign: "left" }}
+          >
+            <LayoutDashboard size={19} />
+            <span>Dashboard</span>
+          </button>
+
+          <button
+            className={`nav-item ${workspaceView === "campus" || workspaceView === "building" ? "active" : ""}`}
+            onClick={() => {
+              setWorkspaceView("campus");
+              setSidebarOpen(false);
+            }}
+            style={{ width: "100%", border: 0, background: undefined, cursor: "pointer", textAlign: "left" }}
+          >
+            <Building2 size={19} />
+            <span>Campus Buildings</span>
+          </button>
+
+          <button
+            className={`nav-item ${workspaceView === "management" ? "active" : ""}`}
+            onClick={() => {
+              setWorkspaceView("management");
+              setSidebarOpen(false);
+            }}
+            style={{ width: "100%", border: 0, background: undefined, cursor: "pointer", textAlign: "left" }}
+          >
+            <Lightbulb size={19} />
+            <span>Optimization Center</span>
+          </button>
         </nav>
 
         <div className="sidebar-bottom">
@@ -287,7 +312,12 @@ function App() {
           <div className="breadcrumb">
             <span>Workspace</span>
             <span className="breadcrumb-divider">/</span>
-            <strong>Overview</strong>
+            <strong>
+            {workspaceView === "campus" && "Campus Buildings"}
+            {workspaceView === "building" && "Building Details"}
+            {workspaceView === "management" && "Optimization Center"}
+            {workspaceView === "legacy" && "Dashboard"}
+           </strong>
           </div>
 
           <div className="topbar-actions">
@@ -301,7 +331,8 @@ function App() {
         </header>
 
         <div className="page-container">
-          <section className="welcome-row">
+          {dashboard && workspaceView === "legacy" && (
+            <section className="welcome-row">
             <div>
               <div className="eyebrow">CAMPUS ENERGY OVERVIEW</div>
               <h1>Good morning, Admin <span>✦</span></h1>
@@ -310,7 +341,8 @@ function App() {
             <button className="export-button" onClick={() => window.print()}>
               <Download size={17} /> Export report
             </button>
-          </section>
+            </section>
+          )}
 
           {loading && (
             <div className="panel" style={{ padding: 24 }}>
@@ -335,7 +367,55 @@ function App() {
             </div>
           )}
 
-          {dashboard && (
+          {dashboard && workspaceView === "campus" && (
+            <CampusExperience
+              dashboard={dashboard}
+              onBuildingSelect={(buildingId) => {
+                setSelectedBuildingId(buildingId);
+                setWorkspaceView("building");
+              }}
+              onOpenManagement={() => setWorkspaceView("management")}
+            />
+          )}
+
+          {dashboard &&
+            workspaceView === "building" &&
+            selectedBuildingId &&
+            dashboard.buildings.some(
+              (item) => item.building_id === selectedBuildingId
+            ) && (
+              <BuildingDashboard
+                building={dashboard.buildings.find(
+                  (item) => item.building_id === selectedBuildingId
+                )!}
+                alerts={dashboard.alerts.filter(
+                  (item) => item.building_id === selectedBuildingId
+                )}
+                recommendations={dashboard.recommendations.filter(
+                  (item) => item.building_id === selectedBuildingId
+                )}
+                approvals={dashboard.approvals.filter(
+                  (item) => item.building_id === selectedBuildingId
+                )}
+                onBack={() => setWorkspaceView("campus")}
+                onOpenManagement={() => setWorkspaceView("management")}
+              />
+            )}
+
+          {dashboard && workspaceView === "management" && (
+            <div>
+              <button
+                className="export-button"
+                onClick={() => setWorkspaceView("campus")}
+                style={{ marginBottom: 20 }}
+              >
+                ← Back to Campus
+              </button>
+              <V2Management />
+            </div>
+          )}
+
+          {dashboard && workspaceView === "legacy" && (
             <>
               <section className="filter-row">
                 <label className="filter-select">
@@ -481,20 +561,36 @@ function App() {
                             />
                           </linearGradient>
                         </defs>
-                        <CartesianGrid stroke="#edf0f5" vertical={false} />
+                        <CartesianGrid stroke="#294057" strokeDasharray="4 5" vertical={false} />
                         <XAxis
                           dataKey="time"
                           axisLine={false}
                           tickLine={false}
                           minTickGap={25}
-                          tick={{ fill: "#929bad", fontSize: 11 }}
+                          tick={{ fill: "#9aafc7", fontSize: 11 }}
                         />
                         <YAxis
                           axisLine={false}
                           tickLine={false}
-                          tick={{ fill: "#929bad", fontSize: 11 }}
+                          tick={{ fill: "#9aafc7", fontSize: 11 }}
                         />
-                        <Tooltip />
+                        <Tooltip
+                          contentStyle={{
+                            backgroundColor: "#102239",
+                            border: "1px solid #31506d",
+                            borderRadius: "10px",
+                            color: "#e8f0ff",
+                            boxShadow: "0 8px 24px #00000040",
+                          }}
+                          labelStyle={{
+                            color: "#b8cce3",
+                            fontWeight: 600,
+                          }}
+                          itemStyle={{
+                            color: "#4cc9ff",
+                          }}
+                          cursor={{ stroke: "#4cc9ff", strokeDasharray: "4 4" }}
+                        />
                         <Area
                           type="monotone"
                           dataKey="energy"
@@ -505,7 +601,7 @@ function App() {
                           activeDot={{
                             r: 6,
                             strokeWidth: 3,
-                            stroke: "#fff",
+                            stroke: "#102239",
                           }}
                           isAnimationActive
                           animationDuration={1000}
@@ -544,7 +640,8 @@ function App() {
                         margin={{ top: 8, right: 12, left: 5, bottom: 0 }}
                       >
                         <CartesianGrid
-                          stroke="#edf0f5"
+                          stroke="#294057"
+                          strokeDasharray="4 5"
                           horizontal={false}
                         />
                         <XAxis
@@ -559,9 +656,25 @@ function App() {
                           width={65}
                           axisLine={false}
                           tickLine={false}
-                          tick={{ fill: "#657087", fontSize: 10 }}
+                          tick={{ fill: "#9aafc7", fontSize: 10 }}
                         />
-                        <Tooltip />
+                        <Tooltip
+                          contentStyle={{
+                            backgroundColor: "#102239",
+                            border: "1px solid #31506d",
+                            borderRadius: "10px",
+                            color: "#e8f0ff",
+                            boxShadow: "0 8px 24px #00000040",
+                          }}
+                          labelStyle={{
+                            color: "#b8cce3",
+                            fontWeight: 600,
+                          }}
+                          itemStyle={{
+                            color: "#4cc9ff",
+                          }}
+                          cursor={{ stroke: "#4cc9ff", strokeDasharray: "4 4" }}
+                        />
                         <Bar
                           dataKey="energy"
                           name="Energy (kWh)"
@@ -698,6 +811,7 @@ function App() {
                   campus-wide savings.
                 </p>
               </section>
+
 
               <footer className="page-footer">
                 <span>

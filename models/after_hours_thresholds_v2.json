@@ -1,0 +1,124 @@
+{
+  "config_version": "2.0",
+  "detector": "after_hours_component_detection",
+  "quantile": 0.99,
+  "comparison": "strictly_greater_than",
+  "calibration": {
+    "dataset": "data/raw/simulated_energy_data.csv",
+    "dataset_sha256": "df7e25c06219127546431010403f7c33d31c89d3bfe8176e26f4ba3ffb9e08da",
+    "training_start": "2026-05-24 00:00:00",
+    "training_end": "2026-09-27 23:00:00",
+    "test_start": "2026-09-28 00:00:00",
+    "normal_idle_definition": {
+      "scheduled": false,
+      "occupancy": 0,
+      "waste_event": false
+    },
+    "calibration_records": 66028,
+    "grouping": [
+      "room_type"
+    ]
+  },
+  "thresholds_by_room_type": {
+    "Classroom": {
+      "sample_count": 25813,
+      "components": {
+        "HVAC": {
+          "column": "hvac_power_kw",
+          "threshold_kw": 0.202,
+          "sample_count": 25813
+        },
+        "Lighting": {
+          "column": "lighting_power_kw",
+          "threshold_kw": 0.06,
+          "sample_count": 25813
+        },
+        "Equipment": {
+          "column": "equipment_power_kw",
+          "threshold_kw": 0.095,
+          "sample_count": 25813
+        }
+      }
+    },
+    "Lab": {
+      "sample_count": 14457,
+      "components": {
+        "HVAC": {
+          "column": "hvac_power_kw",
+          "threshold_kw": 0.236,
+          "sample_count": 14457
+        },
+        "Lighting": {
+          "column": "lighting_power_kw",
+          "threshold_kw": 0.068,
+          "sample_count": 14457
+        },
+        "Equipment": {
+          "column": "equipment_power_kw",
+          "threshold_kw": 0.294,
+          "sample_count": 14457
+        }
+      }
+    },
+    "Lecture Hall": {
+      "sample_count": 5797,
+      "components": {
+        "HVAC": {
+          "column": "hvac_power_kw",
+          "threshold_kw": 0.334,
+          "sample_count": 5797
+        },
+        "Lighting": {
+          "column": "lighting_power_kw",
+          "threshold_kw": 0.096,
+          "sample_count": 5797
+        },
+        "Equipment": {
+          "column": "equipment_power_kw",
+          "threshold_kw": 0.117,
+          "sample_count": 5797
+        }
+      }
+    },
+    "Meeting Room": {
+      "sample_count": 5392,
+      "components": {
+        "HVAC": {
+          "column": "hvac_power_kw",
+          "threshold_kw": 0.111,
+          "sample_count": 5392
+        },
+        "Lighting": {
+          "column": "lighting_power_kw",
+          "threshold_kw": 0.034,
+          "sample_count": 5392
+        },
+        "Equipment": {
+          "column": "equipment_power_kw",
+          "threshold_kw": 0.055,
+          "sample_count": 5392
+        }
+      }
+    },
+    "Office": {
+      "sample_count": 14569,
+      "components": {
+        "HVAC": {
+          "column": "hvac_power_kw",
+          "threshold_kw": 0.162,
+          "sample_count": 14569
+        },
+        "Lighting": {
+          "column": "lighting_power_kw",
+          "threshold_kw": 0.045,
+          "sample_count": 14569
+        },
+        "Equipment": {
+          "column": "equipment_power_kw",
+          "threshold_kw": 0.12,
+          "sample_count": 14569
+        }
+      }
+    }
+  }
+}
