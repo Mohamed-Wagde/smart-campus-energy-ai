@@ -1,0 +1,10 @@
+level,model,MAE (kW),RMSE (kW),WAPE (%)
+room,LightGBM,0.045,0.146,7.403
+room,Baseline: yesterday,0.303,0.802,50.3
+room,Baseline: last week,0.065,0.217,10.711
+building,LightGBM,0.22,0.437,4.563
+building,Baseline: yesterday,1.579,3.482,32.725
+building,Baseline: last week,0.345,0.707,7.152
+campus,LightGBM,0.503,0.872,3.474
+campus,Baseline: yesterday,3.998,9.514,27.622
+campus,Baseline: last week,0.822,1.524,5.682

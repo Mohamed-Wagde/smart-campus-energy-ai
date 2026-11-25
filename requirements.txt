@@ -123,3 +123,4 @@ websocket-client==1.9.2
 websockets==17.4
 widgetsnbextension==4.0.16
 fastapi==0.165.0
+lightgbm==4.6.0

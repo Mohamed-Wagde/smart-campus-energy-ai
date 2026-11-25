@@ -1,0 +1,73 @@
+recommendation_id,detector_version,building_id,room_id,room_type,component,component_power_column,component_threshold_column,alert_count,normal_baseline_kw,estimated_excess_kwh,priority,recommended_action,approval_required
+B02-R09-HVAC,3.0,B02,R09,Classroom,HVAC,hvac_power_kw,hvac_threshold_kw,73,0.192,54.935,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True
+B01-R01-HVAC,3.0,B01,R01,Classroom,HVAC,hvac_power_kw,hvac_threshold_kw,71,0.212,53.428,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True
+B02-R14-HVAC,3.0,B02,R14,Lab,HVAC,hvac_power_kw,hvac_threshold_kw,61,0.199,41.532,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True
+B02-R11-HVAC,3.0,B02,R11,Classroom,HVAC,hvac_power_kw,hvac_threshold_kw,62,0.184,40.435,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True
+B01-R06-HVAC,3.0,B01,R06,Lab,HVAC,hvac_power_kw,hvac_threshold_kw,56,0.236,28.045,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True
+B01-R07-HVAC,3.0,B01,R07,Lab,HVAC,hvac_power_kw,hvac_threshold_kw,53,0.236,27.5594,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True
+B02-R16-HVAC,3.0,B02,R16,Lecture Hall,HVAC,hvac_power_kw,hvac_threshold_kw,34,0.335,23.963,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True
+B01-R02-HVAC,3.0,B01,R02,Classroom,HVAC,hvac_power_kw,hvac_threshold_kw,46,0.189,22.24,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True
+B02-R15-HVAC,3.0,B02,R15,Lab,HVAC,hvac_power_kw,hvac_threshold_kw,44,0.195,20.727,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True
+B01-R04-HVAC,3.0,B01,R04,Classroom,HVAC,hvac_power_kw,hvac_threshold_kw,42,0.1731,20.6378,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True
+B03-R20-HVAC,3.0,B03,R20,Office,HVAC,hvac_power_kw,hvac_threshold_kw,84,0.165,20.109,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True
+B03-R17-HVAC,3.0,B03,R17,Office,HVAC,hvac_power_kw,hvac_threshold_kw,65,0.141,18.479,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True
+B03-R18-HVAC,3.0,B03,R18,Office,HVAC,hvac_power_kw,hvac_threshold_kw,63,0.136,16.505,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True
+B02-R13-HVAC,3.0,B02,R13,Lab,HVAC,hvac_power_kw,hvac_threshold_kw,37,0.2439,15.2499,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True
+B02-R09-LIGHTING,3.0,B02,R09,Classroom,Lighting,lighting_power_kw,lighting_threshold_kw,49,0.061,14.959,High,Inspect lighting controls and switch off unnecessary lights in unoccupied rooms.,True
+B03-R23-HVAC,3.0,B03,R23,Meeting Room,HVAC,hvac_power_kw,hvac_threshold_kw,48,0.113,14.218,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True
+B01-R08-HVAC,3.0,B01,R08,Lecture Hall,HVAC,hvac_power_kw,hvac_threshold_kw,34,0.3352,14.1589,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True
+B01-R03-HVAC,3.0,B01,R03,Classroom,HVAC,hvac_power_kw,hvac_threshold_kw,41,0.164,13.98,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True
+B02-R16-LIGHTING,3.0,B02,R16,Lecture Hall,Lighting,lighting_power_kw,lighting_threshold_kw,40,0.088,13.197,High,Inspect lighting controls and switch off unnecessary lights in unoccupied rooms.,True
+B01-R07-EQUIPMENT,3.0,B01,R07,Lab,Equipment,equipment_power_kw,equipment_threshold_kw,52,0.26,11.843,High,Inspect electrical equipment and switch off devices that are not required.,True
+B02-R10-HVAC,3.0,B02,R10,Classroom,HVAC,hvac_power_kw,hvac_threshold_kw,33,0.2072,11.2787,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True
+B02-R12-HVAC,3.0,B02,R12,Classroom,HVAC,hvac_power_kw,hvac_threshold_kw,42,0.2049,11.0204,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True
+B03-R24-HVAC,3.0,B03,R24,Meeting Room,HVAC,hvac_power_kw,hvac_threshold_kw,40,0.106,10.333,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True
+B02-R14-LIGHTING,3.0,B02,R14,Lab,Lighting,lighting_power_kw,lighting_threshold_kw,46,0.068,9.987,High,Inspect lighting controls and switch off unnecessary lights in unoccupied rooms.,True
+B02-R14-EQUIPMENT,3.0,B02,R14,Lab,Equipment,equipment_power_kw,equipment_threshold_kw,30,0.295,9.187,High,Inspect electrical equipment and switch off devices that are not required.,True
+B03-R17-EQUIPMENT,3.0,B03,R17,Office,Equipment,equipment_power_kw,equipment_threshold_kw,46,0.102,9.069,High,Inspect electrical equipment and switch off devices that are not required.,True
+B02-R16-EQUIPMENT,3.0,B02,R16,Lecture Hall,Equipment,equipment_power_kw,equipment_threshold_kw,43,0.105,8.895,High,Inspect electrical equipment and switch off devices that are not required.,True
+B01-R06-EQUIPMENT,3.0,B01,R06,Lab,Equipment,equipment_power_kw,equipment_threshold_kw,61,0.2991,8.8565,High,Inspect electrical equipment and switch off devices that are not required.,True
+B02-R11-LIGHTING,3.0,B02,R11,Classroom,Lighting,lighting_power_kw,lighting_threshold_kw,28,0.053,8.813,High,Inspect lighting controls and switch off unnecessary lights in unoccupied rooms.,True
+B01-R05-HVAC,3.0,B01,R05,Classroom,HVAC,hvac_power_kw,hvac_threshold_kw,32,0.204,8.116,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True
+B03-R23-LIGHTING,3.0,B03,R23,Meeting Room,Lighting,lighting_power_kw,lighting_threshold_kw,75,0.034,7.798,High,Inspect lighting controls and switch off unnecessary lights in unoccupied rooms.,True
+B02-R09-EQUIPMENT,3.0,B02,R09,Classroom,Equipment,equipment_power_kw,equipment_threshold_kw,51,0.084,7.396,High,Inspect electrical equipment and switch off devices that are not required.,True
+B03-R18-EQUIPMENT,3.0,B03,R18,Office,Equipment,equipment_power_kw,equipment_threshold_kw,39,0.109,7.363,High,Inspect electrical equipment and switch off devices that are not required.,True
+B03-R20-EQUIPMENT,3.0,B03,R20,Office,Equipment,equipment_power_kw,equipment_threshold_kw,67,0.122,6.789,High,Inspect electrical equipment and switch off devices that are not required.,True
+B01-R06-LIGHTING,3.0,B01,R06,Lab,Lighting,lighting_power_kw,lighting_threshold_kw,62,0.0681,6.6533,High,Inspect lighting controls and switch off unnecessary lights in unoccupied rooms.,True
+B01-R01-LIGHTING,3.0,B01,R01,Classroom,Lighting,lighting_power_kw,lighting_threshold_kw,57,0.061,6.559,High,Inspect lighting controls and switch off unnecessary lights in unoccupied rooms.,True
+B01-R01-EQUIPMENT,3.0,B01,R01,Classroom,Equipment,equipment_power_kw,equipment_threshold_kw,46,0.086,6.287,High,Inspect electrical equipment and switch off devices that are not required.,True
+B01-R08-LIGHTING,3.0,B01,R08,Lecture Hall,Lighting,lighting_power_kw,lighting_threshold_kw,35,0.097,6.251,High,Inspect lighting controls and switch off unnecessary lights in unoccupied rooms.,True
+B01-R07-LIGHTING,3.0,B01,R07,Lab,Lighting,lighting_power_kw,lighting_threshold_kw,27,0.057,5.68,High,Inspect lighting controls and switch off unnecessary lights in unoccupied rooms.,True
+B02-R15-EQUIPMENT,3.0,B02,R15,Lab,Equipment,equipment_power_kw,equipment_threshold_kw,41,0.273,5.251,High,Inspect electrical equipment and switch off devices that are not required.,True
+B01-R02-LIGHTING,3.0,B01,R02,Classroom,Lighting,lighting_power_kw,lighting_threshold_kw,43,0.054,5.195,High,Inspect lighting controls and switch off unnecessary lights in unoccupied rooms.,True
+B03-R23-EQUIPMENT,3.0,B03,R23,Meeting Room,Equipment,equipment_power_kw,equipment_threshold_kw,38,0.055,4.96,High,Inspect electrical equipment and switch off devices that are not required.,True
+B03-R17-LIGHTING,3.0,B03,R17,Office,Lighting,lighting_power_kw,lighting_threshold_kw,30,0.046,4.873,High,Inspect lighting controls and switch off unnecessary lights in unoccupied rooms.,True
+B02-R15-LIGHTING,3.0,B02,R15,Lab,Lighting,lighting_power_kw,lighting_threshold_kw,24,0.058,4.607,High,Inspect lighting controls and switch off unnecessary lights in unoccupied rooms.,True
+B03-R18-LIGHTING,3.0,B03,R18,Office,Lighting,lighting_power_kw,lighting_threshold_kw,49,0.042,4.456,High,Inspect lighting controls and switch off unnecessary lights in unoccupied rooms.,True
+B02-R13-LIGHTING,3.0,B02,R13,Lab,Lighting,lighting_power_kw,lighting_threshold_kw,16,0.056,3.952,High,Inspect lighting controls and switch off unnecessary lights in unoccupied rooms.,True
+B01-R02-EQUIPMENT,3.0,B01,R02,Classroom,Equipment,equipment_power_kw,equipment_threshold_kw,35,0.076,3.889,High,Inspect electrical equipment and switch off devices that are not required.,True
+B03-R22-HVAC,3.0,B03,R22,Office,HVAC,hvac_power_kw,hvac_threshold_kw,29,0.154,3.861,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True
+B01-R03-LIGHTING,3.0,B01,R03,Classroom,Lighting,lighting_power_kw,lighting_threshold_kw,22,0.049,3.831,High,Inspect lighting controls and switch off unnecessary lights in unoccupied rooms.,True
+B02-R11-EQUIPMENT,3.0,B02,R11,Classroom,Equipment,equipment_power_kw,equipment_threshold_kw,41,0.079,3.613,High,Inspect electrical equipment and switch off devices that are not required.,True
+B03-R24-LIGHTING,3.0,B03,R24,Meeting Room,Lighting,lighting_power_kw,lighting_threshold_kw,21,0.032,3.553,High,Inspect lighting controls and switch off unnecessary lights in unoccupied rooms.,True
+B03-R20-LIGHTING,3.0,B03,R20,Office,Lighting,lighting_power_kw,lighting_threshold_kw,40,0.042,3.468,High,Inspect lighting controls and switch off unnecessary lights in unoccupied rooms.,True
+B02-R12-LIGHTING,3.0,B02,R12,Classroom,Lighting,lighting_power_kw,lighting_threshold_kw,26,0.056,3.18,High,Inspect lighting controls and switch off unnecessary lights in unoccupied rooms.,True
+B02-R12-EQUIPMENT,3.0,B02,R12,Classroom,Equipment,equipment_power_kw,equipment_threshold_kw,50,0.0849,3.148,High,Inspect electrical equipment and switch off devices that are not required.,True
+B03-R21-LIGHTING,3.0,B03,R21,Office,Lighting,lighting_power_kw,lighting_threshold_kw,40,0.041,3.07,High,Inspect lighting controls and switch off unnecessary lights in unoccupied rooms.,True
+B01-R08-EQUIPMENT,3.0,B01,R08,Lecture Hall,Equipment,equipment_power_kw,equipment_threshold_kw,33,0.118,2.95,High,Inspect electrical equipment and switch off devices that are not required.,True
+B03-R24-EQUIPMENT,3.0,B03,R24,Meeting Room,Equipment,equipment_power_kw,equipment_threshold_kw,29,0.054,2.768,High,Inspect electrical equipment and switch off devices that are not required.,True
+B01-R04-LIGHTING,3.0,B01,R04,Classroom,Lighting,lighting_power_kw,lighting_threshold_kw,15,0.061,2.493,High,Inspect lighting controls and switch off unnecessary lights in unoccupied rooms.,True
+B03-R21-HVAC,3.0,B03,R21,Office,HVAC,hvac_power_kw,hvac_threshold_kw,28,0.17,2.347,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True
+B03-R19-HVAC,3.0,B03,R19,Office,HVAC,hvac_power_kw,hvac_threshold_kw,28,0.136,2.133,High,Inspect HVAC operation and adjust its operating schedule when rooms are unoccupied.,True
+B03-R21-EQUIPMENT,3.0,B03,R21,Office,Equipment,equipment_power_kw,equipment_threshold_kw,38,0.113,1.778,High,Inspect electrical equipment and switch off devices that are not required.,True
+B03-R22-LIGHTING,3.0,B03,R22,Office,Lighting,lighting_power_kw,lighting_threshold_kw,29,0.037,1.746,High,Inspect lighting controls and switch off unnecessary lights in unoccupied rooms.,True
+B01-R04-EQUIPMENT,3.0,B01,R04,Classroom,Equipment,equipment_power_kw,equipment_threshold_kw,29,0.094,1.601,High,Inspect electrical equipment and switch off devices that are not required.,True
+B03-R22-EQUIPMENT,3.0,B03,R22,Office,Equipment,equipment_power_kw,equipment_threshold_kw,32,0.113,1.507,High,Inspect electrical equipment and switch off devices that are not required.,True
+B02-R13-EQUIPMENT,3.0,B02,R13,Lab,Equipment,equipment_power_kw,equipment_threshold_kw,32,0.241,1.127,High,Inspect electrical equipment and switch off devices that are not required.,True
+B01-R05-EQUIPMENT,3.0,B01,R05,Classroom,Equipment,equipment_power_kw,equipment_threshold_kw,31,0.098,1.07,High,Inspect electrical equipment and switch off devices that are not required.,True
+B02-R10-LIGHTING,3.0,B02,R10,Classroom,Lighting,lighting_power_kw,lighting_threshold_kw,37,0.047,0.824,High,Inspect lighting controls and switch off unnecessary lights in unoccupied rooms.,True
+B01-R05-LIGHTING,3.0,B01,R05,Classroom,Lighting,lighting_power_kw,lighting_threshold_kw,42,0.056,0.813,High,Inspect lighting controls and switch off unnecessary lights in unoccupied rooms.,True
+B03-R19-LIGHTING,3.0,B03,R19,Office,Lighting,lighting_power_kw,lighting_threshold_kw,11,0.043,0.375,High,Inspect lighting controls and switch off unnecessary lights in unoccupied rooms.,True
+B03-R19-EQUIPMENT,3.0,B03,R19,Office,Equipment,equipment_power_kw,equipment_threshold_kw,32,0.107,0.045,High,Inspect electrical equipment and switch off devices that are not required.,True
+B01-R03-EQUIPMENT,3.0,B01,R03,Classroom,Equipment,equipment_power_kw,equipment_threshold_kw,27,0.087,0.035,High,Inspect electrical equipment and switch off devices that are not required.,True
+B02-R10-EQUIPMENT,3.0,B02,R10,Classroom,Equipment,equipment_power_kw,equipment_threshold_kw,10,0.076,0.013,High,Inspect electrical equipment and switch off devices that are not required.,True

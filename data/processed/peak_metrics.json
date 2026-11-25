@@ -1,0 +1,17 @@
+{
+  "evaluation_period": "2026-11-01 to 2026-11-21 (peak value/window metrics: 2026-10-18 to 2026-11-21)",
+  "working_days_evaluated": 25,
+  "peak_value_mae_kw": 0.856,
+  "peak_value_error_pct": 2.05,
+  "exact_peak_hour_pct": 48.0,
+  "within_1_hour_pct": 88.0,
+  "top3_window_hit_pct": 100.0,
+  "threshold_kw": 40,
+  "hourly_alert_precision": 0.625,
+  "hourly_alert_recall": 0.833,
+  "what_if_hours_above_threshold_before": 18,
+  "what_if_hours_above_threshold_after": 4,
+  "what_if_highest_load_before_kw": 46.1,
+  "what_if_highest_load_after_kw": 40.9,
+  "note": "Simulated data. What-if rates are assumptions, not measurements."
+}

@@ -1,81 +1,512 @@
-timestamp,building_id,room_id,occupancy,scheduled,waste_event,hvac_power_kw,lighting_power_kw,equipment_power_kw,total_power_kw,energy_kwh,alert_reason,alert_severity
-2026-10-03 19:00:00,B01,R05,0,False,True,1.406,0.494,0.332,2.233,2.233,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-03 20:00:00,B01,R05,0,False,True,1.391,0.496,0.321,2.208,2.208,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-06 19:00:00,B01,R05,0,False,True,1.369,0.492,0.315,2.176,2.176,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-06 20:00:00,B01,R05,0,False,True,1.321,0.513,0.32,2.155,2.155,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-09 19:00:00,B01,R05,0,False,True,1.354,0.505,0.33,2.189,2.189,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-09 20:00:00,B01,R05,0,False,True,1.338,0.486,0.329,2.153,2.153,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-12 19:00:00,B01,R05,0,False,True,1.288,0.482,0.344,2.114,2.114,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-12 20:00:00,B01,R05,0,False,True,1.417,0.514,0.323,2.254,2.254,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-15 19:00:00,B01,R05,0,False,True,1.371,0.518,0.323,2.211,2.211,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-15 20:00:00,B01,R05,0,False,True,1.307,0.494,0.343,2.144,2.144,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-18 19:00:00,B01,R05,0,False,True,1.353,0.522,0.333,2.209,2.209,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-18 20:00:00,B01,R05,0,False,True,1.371,0.478,0.319,2.168,2.168,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-21 19:00:00,B01,R05,0,False,True,1.345,0.491,0.33,2.165,2.165,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-21 20:00:00,B01,R05,0,False,True,1.387,0.483,0.339,2.209,2.209,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-24 19:00:00,B01,R05,0,False,True,1.354,0.513,0.339,2.206,2.206,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-24 20:00:00,B01,R05,0,False,True,1.372,0.487,0.342,2.202,2.202,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-27 19:00:00,B01,R05,0,False,True,1.331,0.495,0.319,2.145,2.145,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-27 20:00:00,B01,R05,0,False,True,1.334,0.515,0.34,2.189,2.189,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-30 19:00:00,B01,R05,0,False,True,1.403,0.478,0.343,2.224,2.224,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-30 20:00:00,B01,R05,0,False,True,1.379,0.477,0.328,2.184,2.184,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-03 19:00:00,B02,R10,0,False,True,1.305,0.479,0.318,2.103,2.103,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-03 20:00:00,B02,R10,0,False,True,1.319,0.496,0.342,2.157,2.157,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-06 19:00:00,B02,R10,0,False,True,1.4,0.475,0.337,2.212,2.212,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-06 20:00:00,B02,R10,0,False,True,1.322,0.485,0.314,2.122,2.122,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-09 19:00:00,B02,R10,0,False,True,1.388,0.48,0.323,2.191,2.191,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-09 20:00:00,B02,R10,0,False,True,1.318,0.522,0.33,2.169,2.169,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-12 19:00:00,B02,R10,0,False,True,1.366,0.523,0.314,2.203,2.203,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-12 20:00:00,B02,R10,0,False,True,1.34,0.48,0.325,2.145,2.145,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-15 19:00:00,B02,R10,0,False,True,1.321,0.511,0.334,2.166,2.166,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-15 20:00:00,B02,R10,0,False,True,1.293,0.481,0.326,2.1,2.1,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-18 19:00:00,B02,R10,0,False,True,1.32,0.515,0.328,2.163,2.163,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-18 20:00:00,B02,R10,0,False,True,1.299,0.525,0.328,2.151,2.151,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-21 19:00:00,B02,R10,0,False,True,1.31,0.485,0.336,2.131,2.131,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-21 20:00:00,B02,R10,0,False,True,1.4,0.487,0.32,2.206,2.206,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-24 19:00:00,B02,R10,0,False,True,1.413,0.518,0.32,2.251,2.251,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-24 20:00:00,B02,R10,0,False,True,1.387,0.475,0.318,2.18,2.18,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-27 19:00:00,B02,R10,0,False,True,1.322,0.483,0.318,2.123,2.123,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-27 20:00:00,B02,R10,0,False,True,1.348,0.482,0.329,2.159,2.159,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-30 19:00:00,B02,R10,0,False,True,1.293,0.506,0.315,2.115,2.115,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-30 20:00:00,B02,R10,0,False,True,1.334,0.495,0.346,2.175,2.175,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-03 19:00:00,B03,R15,0,False,True,1.401,0.495,0.322,2.217,2.217,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-03 20:00:00,B03,R15,0,False,True,1.407,0.481,0.325,2.213,2.213,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-06 19:00:00,B03,R15,0,False,True,1.318,0.523,0.32,2.161,2.161,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-06 20:00:00,B03,R15,0,False,True,1.354,0.512,0.342,2.208,2.208,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-09 19:00:00,B03,R15,0,False,True,1.299,0.505,0.315,2.119,2.119,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-09 20:00:00,B03,R15,0,False,True,1.414,0.525,0.318,2.257,2.257,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-12 19:00:00,B03,R15,0,False,True,1.357,0.512,0.327,2.197,2.197,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-12 20:00:00,B03,R15,0,False,True,1.288,0.507,0.334,2.13,2.13,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-15 19:00:00,B03,R15,0,False,True,1.293,0.498,0.337,2.128,2.128,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-15 20:00:00,B03,R15,0,False,True,1.287,0.513,0.325,2.125,2.125,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-18 19:00:00,B03,R15,0,False,True,1.377,0.493,0.326,2.196,2.196,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-18 20:00:00,B03,R15,0,False,True,1.369,0.516,0.323,2.207,2.207,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-21 19:00:00,B03,R15,0,False,True,1.322,0.5,0.34,2.162,2.162,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-21 20:00:00,B03,R15,0,False,True,1.38,0.514,0.326,2.221,2.221,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-24 19:00:00,B03,R15,0,False,True,1.367,0.477,0.34,2.184,2.184,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-24 20:00:00,B03,R15,0,False,True,1.356,0.516,0.321,2.193,2.193,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-27 19:00:00,B03,R15,0,False,True,1.404,0.509,0.34,2.252,2.252,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-27 20:00:00,B03,R15,0,False,True,1.346,0.518,0.342,2.206,2.206,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-30 19:00:00,B03,R15,0,False,True,1.319,0.522,0.334,2.175,2.175,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-30 20:00:00,B03,R15,0,False,True,1.392,0.484,0.33,2.206,2.206,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-03 19:00:00,B03,R20,0,False,True,1.379,0.486,0.331,2.196,2.196,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-03 20:00:00,B03,R20,0,False,True,1.322,0.514,0.338,2.174,2.174,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-06 19:00:00,B03,R20,0,False,True,1.402,0.477,0.317,2.196,2.196,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-06 20:00:00,B03,R20,0,False,True,1.382,0.513,0.333,2.228,2.228,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-09 19:00:00,B03,R20,0,False,True,1.303,0.519,0.331,2.154,2.154,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-09 20:00:00,B03,R20,0,False,True,1.386,0.489,0.318,2.192,2.192,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-12 19:00:00,B03,R20,0,False,True,1.395,0.487,0.334,2.216,2.216,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-12 20:00:00,B03,R20,0,False,True,1.412,0.504,0.34,2.255,2.255,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-15 19:00:00,B03,R20,0,False,True,1.3,0.523,0.316,2.14,2.14,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-15 20:00:00,B03,R20,0,False,True,1.38,0.493,0.338,2.211,2.211,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-18 19:00:00,B03,R20,0,False,True,1.297,0.512,0.344,2.153,2.153,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-18 20:00:00,B03,R20,0,False,True,1.332,0.478,0.319,2.129,2.129,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-21 19:00:00,B03,R20,0,False,True,1.32,0.503,0.327,2.149,2.149,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-21 20:00:00,B03,R20,0,False,True,1.332,0.508,0.334,2.175,2.175,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-24 19:00:00,B03,R20,0,False,True,1.403,0.498,0.33,2.231,2.231,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-24 20:00:00,B03,R20,0,False,True,1.405,0.499,0.335,2.239,2.239,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-27 19:00:00,B03,R20,0,False,True,1.339,0.505,0.319,2.163,2.163,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-27 20:00:00,B03,R20,0,False,True,1.329,0.512,0.332,2.173,2.173,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-30 19:00:00,B03,R20,0,False,True,1.363,0.523,0.322,2.209,2.209,High electricity consumption outside scheduled hours with zero occupancy,High
-2026-10-30 20:00:00,B03,R20,0,False,True,1.347,0.51,0.314,2.171,2.171,High electricity consumption outside scheduled hours with zero occupancy,High
+timestamp,building_id,room_id,occupancy,scheduled,waste_event,hvac_power_kw,lighting_power_kw,equipment_power_kw,total_power_kw,energy_kwh,room_type,outside_temp_c,day_type,waste_type,alert_reason,alert_severity
+2026-06-20 12:00:00,B01,R01,0,False,True,0.18,0.558,0.081,0.819,0.819,Classroom,31.6,weekend,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-20 14:00:00,B01,R01,0,False,True,0.186,0.565,0.079,0.83,0.83,Classroom,33.2,weekend,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-20 15:00:00,B01,R01,0,False,True,0.194,0.538,0.086,0.818,0.818,Classroom,33.2,weekend,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-20 16:00:00,B01,R01,0,False,True,0.194,0.554,0.081,0.829,0.829,Classroom,33.6,weekend,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-10 10:00:00,B01,R01,0,False,True,1.545,0.06,0.08,1.685,1.685,Classroom,31.8,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-10 11:00:00,B01,R01,0,False,True,1.492,0.058,0.077,1.627,1.627,Classroom,33.1,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-10 12:00:00,B01,R01,0,False,True,1.421,0.054,0.082,1.558,1.558,Classroom,35.0,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-10 13:00:00,B01,R01,0,False,True,1.428,0.058,0.078,1.563,1.563,Classroom,34.6,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-10 14:00:00,B01,R01,0,False,True,1.446,0.058,0.081,1.585,1.585,Classroom,34.9,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-10 15:00:00,B01,R01,0,False,True,1.513,0.057,0.076,1.645,1.645,Classroom,35.5,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-10 16:00:00,B01,R01,0,False,True,1.411,0.056,0.08,1.548,1.548,Classroom,35.4,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-10 17:00:00,B01,R01,0,False,True,1.406,0.056,0.08,1.542,1.542,Classroom,34.5,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-31 14:00:00,B01,R01,0,False,True,1.669,0.058,0.083,1.81,1.81,Classroom,35.4,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-31 15:00:00,B01,R01,0,False,True,1.747,0.059,0.08,1.886,1.886,Classroom,35.3,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-31 16:00:00,B01,R01,0,False,True,1.753,0.057,0.078,1.888,1.888,Classroom,36.0,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-31 17:00:00,B01,R01,0,False,True,1.676,0.058,0.078,1.812,1.812,Classroom,35.0,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-31 18:00:00,B01,R01,0,False,True,1.835,0.059,0.084,1.978,1.978,Classroom,34.5,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-24 13:00:00,B01,R01,0,False,True,1.717,0.057,0.078,1.852,1.852,Classroom,34.1,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-24 14:00:00,B01,R01,0,False,True,1.576,0.057,0.079,1.711,1.711,Classroom,34.8,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-24 15:00:00,B01,R01,0,False,True,1.593,0.058,0.08,1.731,1.731,Classroom,35.6,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-24 16:00:00,B01,R01,0,False,True,1.631,0.055,0.081,1.767,1.767,Classroom,36.2,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-24 17:00:00,B01,R01,0,False,True,1.636,0.059,0.081,1.776,1.776,Classroom,34.9,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-24 18:00:00,B01,R01,0,False,True,1.771,0.059,0.079,1.909,1.909,Classroom,34.3,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-24 19:00:00,B01,R01,0,False,True,1.595,0.058,0.084,1.736,1.736,Classroom,33.7,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-06 15:00:00,B01,R01,0,False,True,1.293,0.058,0.079,1.43,1.43,Classroom,33.2,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-06 16:00:00,B01,R01,0,False,True,1.239,0.057,0.079,1.375,1.375,Classroom,33.2,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-06 17:00:00,B01,R01,0,False,True,1.226,0.058,0.082,1.366,1.366,Classroom,32.6,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-06 18:00:00,B01,R01,0,False,True,1.197,0.056,0.077,1.329,1.329,Classroom,31.6,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-06 19:00:00,B01,R01,0,False,True,1.2,0.056,0.08,1.337,1.337,Classroom,30.8,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-06 20:00:00,B01,R01,0,False,True,1.236,0.055,0.079,1.369,1.369,Classroom,30.7,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-06 21:00:00,B01,R01,0,False,True,1.241,0.058,0.08,1.378,1.378,Classroom,29.0,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-13 15:00:00,B01,R01,0,False,True,1.437,0.513,0.348,2.298,2.298,Classroom,34.9,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-13 16:00:00,B01,R01,0,False,True,1.438,0.517,0.323,2.277,2.277,Classroom,35.7,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-13 17:00:00,B01,R01,0,False,True,1.468,0.509,0.323,2.3,2.3,Classroom,34.6,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-13 18:00:00,B01,R01,0,False,True,1.435,0.505,0.322,2.262,2.262,Classroom,33.9,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-13 19:00:00,B01,R01,0,False,True,1.403,0.512,0.319,2.234,2.234,Classroom,33.0,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-13 20:00:00,B01,R01,0,False,True,1.354,0.529,0.326,2.209,2.209,Classroom,32.3,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-13 21:00:00,B01,R01,0,False,True,1.453,0.515,0.332,2.299,2.299,Classroom,30.5,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-12 19:00:00,B01,R01,0,False,True,1.576,0.06,0.08,1.715,1.715,Classroom,26.8,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-12 20:00:00,B01,R01,0,False,True,1.477,0.059,0.077,1.612,1.612,Classroom,24.1,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-12 21:00:00,B01,R01,0,False,True,1.579,0.059,0.079,1.717,1.717,Classroom,23.9,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-12 22:00:00,B01,R01,0,False,True,1.653,0.061,0.078,1.793,1.793,Classroom,22.0,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-12 23:00:00,B01,R01,0,False,True,1.516,0.056,0.081,1.654,1.654,Classroom,21.1,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-01 20:00:00,B01,R02,0,False,True,1.018,0.408,0.261,1.686,1.686,Classroom,29.7,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-01 21:00:00,B01,R02,0,False,True,1.062,0.405,0.249,1.716,1.716,Classroom,28.0,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-01 22:00:00,B01,R02,0,False,True,1.057,0.388,0.26,1.705,1.705,Classroom,27.4,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-01 23:00:00,B01,R02,0,False,True,1.054,0.387,0.263,1.704,1.704,Classroom,26.7,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-02 00:00:00,B01,R02,0,False,True,0.978,0.397,0.265,1.641,1.641,Classroom,25.1,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-02 01:00:00,B01,R02,0,False,True,1.072,0.39,0.264,1.726,1.726,Classroom,24.5,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-02 02:00:00,B01,R02,0,False,True,1.04,0.392,0.261,1.693,1.693,Classroom,24.3,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-01 17:00:00,B01,R02,0,False,True,1.676,0.05,0.069,1.795,1.795,Classroom,40.8,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-01 18:00:00,B01,R02,0,False,True,1.7,0.053,0.071,1.824,1.824,Classroom,40.0,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-01 19:00:00,B01,R02,0,False,True,1.742,0.053,0.074,1.869,1.869,Classroom,38.2,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-08 09:00:00,B01,R02,0,False,True,1.441,0.05,0.071,1.562,1.562,Classroom,29.3,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-08 10:00:00,B01,R02,0,False,True,1.367,0.047,0.074,1.488,1.488,Classroom,31.4,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-08 11:00:00,B01,R02,0,False,True,1.392,0.053,0.072,1.516,1.516,Classroom,32.2,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-08 12:00:00,B01,R02,0,False,True,1.413,0.053,0.069,1.535,1.535,Classroom,33.0,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-08 13:00:00,B01,R02,0,False,True,1.351,0.049,0.068,1.468,1.468,Classroom,33.5,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-08 14:00:00,B01,R02,0,False,True,1.375,0.053,0.07,1.498,1.498,Classroom,34.0,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-10 20:00:00,B01,R02,0,False,True,1.088,0.054,0.071,1.212,1.212,Classroom,29.8,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-10 21:00:00,B01,R02,0,False,True,1.089,0.046,0.065,1.2,1.2,Classroom,28.3,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-10 22:00:00,B01,R02,0,False,True,1.066,0.048,0.073,1.187,1.187,Classroom,27.3,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-18 22:00:00,B01,R02,0,False,True,0.751,0.278,0.207,1.236,1.236,Classroom,21.8,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-18 23:00:00,B01,R02,0,False,True,0.79,0.294,0.212,1.297,1.297,Classroom,20.5,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-19 00:00:00,B01,R02,0,False,True,0.745,0.281,0.193,1.219,1.219,Classroom,21.6,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-16 19:00:00,B01,R03,0,False,True,1.076,0.046,0.083,1.205,1.205,Classroom,34.2,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-16 20:00:00,B01,R03,0,False,True,1.068,0.047,0.08,1.195,1.195,Classroom,32.8,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-16 21:00:00,B01,R03,0,False,True,1.072,0.045,0.081,1.199,1.199,Classroom,32.6,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-16 22:00:00,B01,R03,0,False,True,1.084,0.048,0.079,1.212,1.212,Classroom,30.4,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-16 23:00:00,B01,R03,0,False,True,1.073,0.046,0.079,1.198,1.198,Classroom,29.8,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-17 00:00:00,B01,R03,0,False,True,1.096,0.044,0.079,1.219,1.219,Classroom,25.7,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-17 01:00:00,B01,R03,0,False,True,1.095,0.044,0.079,1.218,1.218,Classroom,25.0,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-17 02:00:00,B01,R03,0,False,True,1.088,0.046,0.084,1.218,1.218,Classroom,23.9,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-07 17:00:00,B01,R03,0,False,True,1.245,0.045,0.084,1.374,1.374,Classroom,29.6,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-07 18:00:00,B01,R03,0,False,True,1.17,0.047,0.08,1.297,1.297,Classroom,28.6,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-07 19:00:00,B01,R03,0,False,True,1.149,0.047,0.082,1.278,1.278,Classroom,28.1,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-07 20:00:00,B01,R03,0,False,True,1.123,0.047,0.079,1.249,1.249,Classroom,26.9,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-19 18:00:00,B01,R03,0,False,True,0.697,0.046,0.082,0.826,0.826,Classroom,28.3,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-22 13:00:00,B01,R04,0,False,True,1.017,0.055,0.089,1.161,1.161,Classroom,34.8,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-22 14:00:00,B01,R04,0,False,True,1.083,0.055,0.087,1.224,1.224,Classroom,34.8,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-20 09:00:00,B01,R04,0,False,True,1.189,0.056,0.089,1.334,1.334,Classroom,27.6,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-20 10:00:00,B01,R04,0,False,True,1.309,0.055,0.085,1.448,1.448,Classroom,29.2,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-20 11:00:00,B01,R04,0,False,True,1.286,0.058,0.086,1.431,1.431,Classroom,30.7,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-20 12:00:00,B01,R04,0,False,True,1.258,0.057,0.09,1.405,1.405,Classroom,31.7,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-20 13:00:00,B01,R04,0,False,True,1.3,0.06,0.085,1.444,1.444,Classroom,32.0,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-20 14:00:00,B01,R04,0,False,True,1.27,0.058,0.091,1.419,1.419,Classroom,31.6,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-17 11:00:00,B01,R04,0,False,True,1.541,0.056,0.087,1.684,1.684,Classroom,29.9,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-17 12:00:00,B01,R04,0,False,True,1.577,0.055,0.084,1.717,1.717,Classroom,30.6,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-17 13:00:00,B01,R04,0,False,True,1.563,0.054,0.089,1.705,1.705,Classroom,31.3,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-17 14:00:00,B01,R04,0,False,True,1.444,0.059,0.086,1.589,1.589,Classroom,32.5,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-17 15:00:00,B01,R04,0,False,True,1.495,0.056,0.084,1.635,1.635,Classroom,32.5,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-17 16:00:00,B01,R04,0,False,True,1.516,0.055,0.088,1.659,1.659,Classroom,32.3,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-25 18:00:00,B01,R04,0,False,True,1.544,0.553,0.355,2.453,2.453,Classroom,27.7,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-25 19:00:00,B01,R04,0,False,True,1.531,0.551,0.358,2.439,2.439,Classroom,26.3,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-25 20:00:00,B01,R04,0,False,True,1.538,0.547,0.363,2.448,2.448,Classroom,24.7,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-28 10:00:00,B01,R05,0,False,True,1.533,0.052,0.094,1.679,1.679,Classroom,32.7,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-28 11:00:00,B01,R05,0,False,True,1.53,0.054,0.088,1.673,1.673,Classroom,34.5,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-28 12:00:00,B01,R05,0,False,True,1.528,0.053,0.097,1.678,1.678,Classroom,34.9,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-06 12:00:00,B01,R05,0,False,True,0.736,0.051,0.09,0.877,0.877,Classroom,33.6,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-06 13:00:00,B01,R05,0,False,True,0.753,0.051,0.086,0.89,0.89,Classroom,34.0,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-06 14:00:00,B01,R05,0,False,True,0.755,0.052,0.096,0.903,0.903,Classroom,34.5,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-06 15:00:00,B01,R05,0,False,True,0.749,0.052,0.09,0.891,0.891,Classroom,34.4,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-27 18:00:00,B01,R05,0,False,True,0.801,0.317,0.237,1.355,1.355,Classroom,31.4,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-27 19:00:00,B01,R05,0,False,True,0.832,0.309,0.236,1.377,1.377,Classroom,29.6,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-27 20:00:00,B01,R05,0,False,True,0.839,0.307,0.221,1.367,1.367,Classroom,28.8,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-07 17:00:00,B01,R06,0,False,True,1.733,0.706,1.377,3.816,3.816,Lab,33.1,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-07 18:00:00,B01,R06,0,False,True,1.902,0.705,1.27,3.877,3.877,Lab,32.2,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-07 19:00:00,B01,R06,0,False,True,1.845,0.706,1.368,3.918,3.918,Lab,31.9,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-07 20:00:00,B01,R06,0,False,True,1.805,0.685,1.28,3.77,3.77,Lab,29.8,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-21 21:00:00,B01,R06,0,False,True,0.961,0.378,0.778,2.117,2.117,Lab,29.8,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-21 22:00:00,B01,R06,0,False,True,0.967,0.384,0.8,2.151,2.151,Lab,28.5,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-21 23:00:00,B01,R06,0,False,True,1.004,0.384,0.765,2.154,2.154,Lab,27.5,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-22 00:00:00,B01,R06,0,False,True,0.936,0.373,0.834,2.143,2.143,Lab,27.3,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-22 01:00:00,B01,R06,0,False,True,1.02,0.369,0.816,2.205,2.205,Lab,27.1,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-22 02:00:00,B01,R06,0,False,True,0.971,0.373,0.793,2.138,2.138,Lab,25.9,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-14 19:00:00,B01,R06,0,False,True,1.188,0.061,0.282,1.531,1.531,Lab,33.3,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-14 20:00:00,B01,R06,0,False,True,1.177,0.064,0.283,1.523,1.523,Lab,31.9,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-14 21:00:00,B01,R06,0,False,True,1.163,0.066,0.289,1.517,1.517,Lab,31.3,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-14 22:00:00,B01,R06,0,False,True,1.184,0.065,0.267,1.516,1.516,Lab,30.1,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-14 23:00:00,B01,R06,0,False,True,1.232,0.065,0.274,1.571,1.571,Lab,28.9,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-15 00:00:00,B01,R06,0,False,True,1.098,0.067,0.272,1.436,1.436,Lab,26.8,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-15 01:00:00,B01,R06,0,False,True,1.151,0.064,0.271,1.486,1.486,Lab,25.2,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-17 20:00:00,B01,R06,0,False,True,0.203,0.375,0.298,0.877,0.877,Lab,31.3,break,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-17 21:00:00,B01,R06,0,False,True,0.196,0.366,0.286,0.848,0.848,Lab,28.6,break,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-17 22:00:00,B01,R06,0,False,True,0.195,0.371,0.299,0.865,0.865,Lab,27.9,break,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-17 23:00:00,B01,R06,0,False,True,0.188,0.353,0.292,0.833,0.833,Lab,26.6,break,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-20 17:00:00,B01,R06,0,False,True,0.721,0.066,0.267,1.053,1.053,Lab,31.3,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-20 18:00:00,B01,R06,0,False,True,0.696,0.066,0.281,1.043,1.043,Lab,29.8,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-20 19:00:00,B01,R06,0,False,True,0.749,0.062,0.287,1.098,1.098,Lab,29.7,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-20 20:00:00,B01,R06,0,False,True,0.718,0.064,0.279,1.06,1.06,Lab,28.7,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-20 21:00:00,B01,R06,0,False,True,0.679,0.062,0.288,1.029,1.029,Lab,26.5,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-20 22:00:00,B01,R06,0,False,True,0.711,0.066,0.276,1.053,1.053,Lab,25.6,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-20 23:00:00,B01,R06,0,False,True,0.713,0.065,0.282,1.06,1.06,Lab,23.7,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-02 12:00:00,B01,R06,0,False,True,1.08,0.416,0.833,2.329,2.329,Lab,29.1,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-02 13:00:00,B01,R06,0,False,True,1.11,0.423,0.86,2.393,2.393,Lab,29.0,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-02 14:00:00,B01,R06,0,False,True,1.093,0.399,0.831,2.323,2.323,Lab,30.3,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-18 20:00:00,B01,R06,0,False,True,0.931,0.064,0.29,1.284,1.284,Lab,25.4,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-18 21:00:00,B01,R06,0,False,True,0.895,0.064,0.277,1.237,1.237,Lab,23.0,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-18 22:00:00,B01,R06,0,False,True,0.886,0.064,0.277,1.227,1.227,Lab,21.8,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-18 23:00:00,B01,R06,0,False,True,0.908,0.065,0.268,1.241,1.241,Lab,20.5,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-19 00:00:00,B01,R06,0,False,True,0.932,0.065,0.276,1.273,1.273,Lab,21.6,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-19 01:00:00,B01,R06,0,False,True,0.864,0.066,0.277,1.207,1.207,Lab,20.2,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-19 02:00:00,B01,R06,0,False,True,0.887,0.062,0.278,1.227,1.227,Lab,20.0,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-30 13:00:00,B01,R07,0,False,True,1.738,0.051,0.243,2.033,2.033,Lab,41.8,holiday,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-30 14:00:00,B01,R07,0,False,True,1.724,0.053,0.243,2.021,2.021,Lab,42.2,holiday,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-30 15:00:00,B01,R07,0,False,True,1.827,0.055,0.234,2.116,2.116,Lab,42.2,holiday,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-30 16:00:00,B01,R07,0,False,True,1.7,0.05,0.246,1.996,1.996,Lab,42.0,holiday,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-30 17:00:00,B01,R07,0,False,True,1.641,0.053,0.239,1.933,1.933,Lab,41.5,holiday,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-30 18:00:00,B01,R07,0,False,True,1.773,0.053,0.247,2.072,2.072,Lab,40.0,holiday,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-01 10:00:00,B01,R07,0,False,True,1.692,0.587,1.221,3.501,3.501,Lab,35.9,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-01 11:00:00,B01,R07,0,False,True,1.731,0.624,1.233,3.588,3.588,Lab,36.2,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-01 12:00:00,B01,R07,0,False,True,1.717,0.646,1.222,3.585,3.585,Lab,37.1,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-01 13:00:00,B01,R07,0,False,True,1.606,0.613,1.206,3.425,3.425,Lab,38.9,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-01 14:00:00,B01,R07,0,False,True,1.649,0.618,1.24,3.507,3.507,Lab,38.8,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-01 15:00:00,B01,R07,0,False,True,1.674,0.651,1.183,3.508,3.508,Lab,39.1,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-01 16:00:00,B01,R07,0,False,True,1.694,0.635,1.204,3.532,3.532,Lab,38.3,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-16 09:00:00,B01,R07,0,False,True,0.777,0.053,0.246,1.075,1.075,Lab,31.4,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-16 10:00:00,B01,R07,0,False,True,0.757,0.05,0.245,1.052,1.052,Lab,33.8,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-16 11:00:00,B01,R07,0,False,True,0.774,0.049,0.25,1.072,1.072,Lab,34.2,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-16 12:00:00,B01,R07,0,False,True,0.811,0.056,0.246,1.113,1.113,Lab,35.7,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-16 13:00:00,B01,R07,0,False,True,0.76,0.051,0.242,1.053,1.053,Lab,36.0,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-16 14:00:00,B01,R07,0,False,True,0.764,0.054,0.25,1.068,1.068,Lab,36.5,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-16 15:00:00,B01,R07,0,False,True,0.758,0.051,0.241,1.05,1.05,Lab,36.5,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-16 16:00:00,B01,R07,0,False,True,0.795,0.054,0.25,1.098,1.098,Lab,36.6,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-20 19:00:00,B01,R07,0,False,True,0.199,0.055,0.711,0.965,0.965,Lab,29.7,regular,EQUIPMENT_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-20 20:00:00,B01,R07,0,False,True,0.187,0.052,0.737,0.976,0.976,Lab,28.7,regular,EQUIPMENT_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-20 21:00:00,B01,R07,0,False,True,0.177,0.056,0.784,1.016,1.016,Lab,26.5,regular,EQUIPMENT_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-20 22:00:00,B01,R07,0,False,True,0.184,0.05,0.726,0.96,0.96,Lab,25.6,regular,EQUIPMENT_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-20 23:00:00,B01,R07,0,False,True,0.172,0.052,0.775,0.999,0.999,Lab,23.7,regular,EQUIPMENT_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-02 13:00:00,B01,R07,0,False,True,0.85,0.283,0.657,1.79,1.79,Lab,29.0,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-02 14:00:00,B01,R07,0,False,True,0.798,0.312,0.651,1.761,1.761,Lab,30.3,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-02 15:00:00,B01,R07,0,False,True,0.839,0.298,0.65,1.787,1.787,Lab,30.5,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-02 16:00:00,B01,R07,0,False,True,0.784,0.307,0.617,1.707,1.707,Lab,30.2,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-02 17:00:00,B01,R07,0,False,True,0.844,0.293,0.599,1.736,1.736,Lab,30.1,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-02 18:00:00,B01,R07,0,False,True,0.781,0.301,0.614,1.696,1.696,Lab,29.3,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-02 19:00:00,B01,R07,0,False,True,0.786,0.297,0.642,1.725,1.725,Lab,27.3,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-05-24 20:00:00,B01,R08,0,False,True,2.914,1.317,0.677,4.909,4.909,Lecture Hall,29.2,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-05-24 21:00:00,B01,R08,0,False,True,3.114,1.356,0.683,5.153,5.153,Lecture Hall,27.7,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-05-24 22:00:00,B01,R08,0,False,True,3.173,1.305,0.686,5.164,5.164,Lecture Hall,26.6,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-19 11:00:00,B01,R08,0,False,True,1.474,0.603,0.357,2.434,2.434,Lecture Hall,30.4,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-19 12:00:00,B01,R08,0,False,True,1.482,0.612,0.36,2.455,2.455,Lecture Hall,31.5,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-19 13:00:00,B01,R08,0,False,True,1.484,0.586,0.367,2.437,2.437,Lecture Hall,32.4,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-19 14:00:00,B01,R08,0,False,True,1.511,0.611,0.371,2.493,2.493,Lecture Hall,32.8,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-19 15:00:00,B01,R08,0,False,True,1.463,0.593,0.362,2.418,2.418,Lecture Hall,32.8,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-14 17:00:00,B02,R09,0,False,True,1.361,0.511,0.323,2.195,2.195,Classroom,34.3,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-14 18:00:00,B02,R09,0,False,True,1.343,0.493,0.315,2.151,2.151,Classroom,33.8,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-14 19:00:00,B02,R09,0,False,True,1.36,0.489,0.323,2.171,2.171,Classroom,33.3,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-14 20:00:00,B02,R09,0,False,True,1.383,0.511,0.336,2.231,2.231,Classroom,30.7,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-14 21:00:00,B02,R09,0,False,True,1.346,0.495,0.319,2.16,2.16,Classroom,29.7,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-14 22:00:00,B02,R09,0,False,True,1.359,0.465,0.324,2.148,2.148,Classroom,28.7,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-14 23:00:00,B02,R09,0,False,True,1.259,0.481,0.329,2.069,2.069,Classroom,28.4,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-03 16:00:00,B02,R09,0,False,True,1.543,0.055,0.078,1.676,1.676,Classroom,37.0,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-03 17:00:00,B02,R09,0,False,True,1.683,0.057,0.08,1.82,1.82,Classroom,35.9,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-03 18:00:00,B02,R09,0,False,True,1.644,0.059,0.078,1.78,1.78,Classroom,35.5,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-03 19:00:00,B02,R09,0,False,True,1.569,0.057,0.079,1.705,1.705,Classroom,34.8,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-14 16:00:00,B02,R09,0,False,True,1.016,0.056,0.083,1.156,1.156,Classroom,34.4,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-14 17:00:00,B02,R09,0,False,True,1.039,0.055,0.084,1.178,1.178,Classroom,34.9,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-08 19:00:00,B02,R09,0,False,True,1.215,0.451,0.301,1.967,1.967,Classroom,32.8,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-08 20:00:00,B02,R09,0,False,True,1.267,0.444,0.287,1.998,1.998,Classroom,32.1,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-08 21:00:00,B02,R09,0,False,True,1.217,0.446,0.306,1.97,1.97,Classroom,29.7,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-08 22:00:00,B02,R09,0,False,True,1.277,0.465,0.277,2.018,2.018,Classroom,28.1,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-12 10:00:00,B02,R09,0,False,True,1.209,0.432,0.279,1.921,1.921,Classroom,32.9,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-12 11:00:00,B02,R09,0,False,True,1.205,0.441,0.285,1.931,1.931,Classroom,34.3,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-12 12:00:00,B02,R09,0,False,True,1.204,0.42,0.257,1.882,1.882,Classroom,35.0,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-12 13:00:00,B02,R09,0,False,True,1.163,0.439,0.283,1.885,1.885,Classroom,36.7,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-12 14:00:00,B02,R09,0,False,True,1.205,0.414,0.284,1.903,1.903,Classroom,36.1,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-12 15:00:00,B02,R09,0,False,True,1.139,0.446,0.279,1.863,1.863,Classroom,36.5,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-14 16:00:00,B02,R09,0,False,True,1.334,0.053,0.079,1.465,1.465,Classroom,34.6,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-14 17:00:00,B02,R09,0,False,True,1.363,0.058,0.078,1.499,1.499,Classroom,34.4,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-14 18:00:00,B02,R09,0,False,True,1.335,0.058,0.077,1.47,1.47,Classroom,33.3,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-14 19:00:00,B02,R09,0,False,True,1.34,0.054,0.079,1.473,1.473,Classroom,33.0,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-14 20:00:00,B02,R09,0,False,True,1.378,0.057,0.079,1.514,1.514,Classroom,31.8,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-14 21:00:00,B02,R09,0,False,True,1.37,0.053,0.077,1.5,1.5,Classroom,30.3,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-04 19:00:00,B02,R09,0,False,True,1.167,0.426,0.271,1.864,1.864,Classroom,29.6,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-04 20:00:00,B02,R09,0,False,True,1.1,0.428,0.272,1.8,1.8,Classroom,28.7,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-04 21:00:00,B02,R09,0,False,True,1.111,0.422,0.286,1.819,1.819,Classroom,27.5,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-04 22:00:00,B02,R09,0,False,True,1.113,0.404,0.273,1.791,1.791,Classroom,26.6,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-04 23:00:00,B02,R09,0,False,True,1.18,0.439,0.282,1.901,1.901,Classroom,25.2,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-05 00:00:00,B02,R09,0,False,True,1.102,0.414,0.284,1.8,1.8,Classroom,24.7,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-05 01:00:00,B02,R09,0,False,True,1.083,0.416,0.272,1.771,1.771,Classroom,23.7,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-05 16:00:00,B02,R09,0,False,True,1.721,0.057,0.077,1.855,1.855,Classroom,32.5,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-05 17:00:00,B02,R09,0,False,True,1.748,0.055,0.081,1.884,1.884,Classroom,32.3,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-11 14:00:00,B02,R09,0,False,True,1.323,0.056,0.078,1.456,1.456,Classroom,34.1,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-11 15:00:00,B02,R09,0,False,True,1.317,0.058,0.079,1.454,1.454,Classroom,33.8,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-11 16:00:00,B02,R09,0,False,True,1.268,0.056,0.074,1.397,1.397,Classroom,33.2,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-26 17:00:00,B02,R09,0,False,True,0.592,0.214,0.17,0.976,0.976,Classroom,30.5,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-26 18:00:00,B02,R09,0,False,True,0.591,0.223,0.178,0.991,0.991,Classroom,29.0,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-26 19:00:00,B02,R09,0,False,True,0.584,0.219,0.158,0.961,0.961,Classroom,29.0,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-05 17:00:00,B02,R09,0,False,True,0.963,0.333,0.242,1.537,1.537,Classroom,30.2,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-05 18:00:00,B02,R09,0,False,True,0.941,0.364,0.236,1.541,1.541,Classroom,28.7,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-05 19:00:00,B02,R09,0,False,True,0.947,0.34,0.255,1.542,1.542,Classroom,27.9,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-05 20:00:00,B02,R09,0,False,True,0.91,0.343,0.242,1.494,1.494,Classroom,26.1,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-05 21:00:00,B02,R09,0,False,True,0.915,0.338,0.24,1.492,1.492,Classroom,25.6,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-18 19:00:00,B02,R09,0,False,True,0.151,0.609,0.079,0.839,0.839,Classroom,28.5,regular,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-18 20:00:00,B02,R09,0,False,True,0.151,0.583,0.078,0.812,0.812,Classroom,26.8,regular,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-18 21:00:00,B02,R09,0,False,True,0.149,0.615,0.077,0.84,0.84,Classroom,26.5,regular,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-17 21:00:00,B02,R09,0,False,True,1.721,0.054,0.078,1.853,1.853,Classroom,20.9,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-17 22:00:00,B02,R09,0,False,True,1.624,0.058,0.078,1.76,1.76,Classroom,20.7,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-17 23:00:00,B02,R09,0,False,True,1.652,0.056,0.08,1.788,1.788,Classroom,18.2,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-19 15:00:00,B02,R10,0,False,True,1.6,0.043,0.07,1.713,1.713,Classroom,31.9,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-19 16:00:00,B02,R10,0,False,True,1.643,0.046,0.066,1.755,1.755,Classroom,32.1,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-19 17:00:00,B02,R10,0,False,True,1.548,0.044,0.073,1.664,1.664,Classroom,31.6,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-19 18:00:00,B02,R10,0,False,True,1.599,0.045,0.068,1.711,1.711,Classroom,30.9,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-19 19:00:00,B02,R10,0,False,True,1.614,0.044,0.068,1.727,1.727,Classroom,30.1,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-19 20:00:00,B02,R10,0,False,True,1.602,0.044,0.07,1.716,1.716,Classroom,28.8,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-19 21:00:00,B02,R10,0,False,True,1.598,0.043,0.072,1.714,1.714,Classroom,26.7,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-19 22:00:00,B02,R10,0,False,True,1.579,0.044,0.075,1.698,1.698,Classroom,25.4,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-05-26 18:00:00,B02,R11,0,False,True,1.753,0.047,0.073,1.873,1.873,Classroom,33.3,exam,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-05-26 19:00:00,B02,R11,0,False,True,1.727,0.05,0.074,1.851,1.851,Classroom,32.5,exam,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-05-26 20:00:00,B02,R11,0,False,True,1.643,0.047,0.076,1.766,1.766,Classroom,30.9,exam,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-05-26 21:00:00,B02,R11,0,False,True,1.759,0.048,0.073,1.881,1.881,Classroom,29.7,exam,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-05-26 22:00:00,B02,R11,0,False,True,1.706,0.05,0.072,1.828,1.828,Classroom,28.3,exam,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-14 21:00:00,B02,R11,0,False,True,1.545,0.048,0.072,1.665,1.665,Classroom,29.7,exam,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-14 22:00:00,B02,R11,0,False,True,1.49,0.05,0.078,1.619,1.619,Classroom,28.7,exam,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-14 23:00:00,B02,R11,0,False,True,1.43,0.049,0.074,1.552,1.552,Classroom,28.4,exam,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-15 00:00:00,B02,R11,0,False,True,1.406,0.05,0.075,1.531,1.531,Classroom,25.8,exam,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-28 10:00:00,B02,R11,0,False,True,0.695,0.05,0.078,0.823,0.823,Classroom,32.7,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-28 11:00:00,B02,R11,0,False,True,0.703,0.048,0.076,0.827,0.827,Classroom,34.5,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-28 14:00:00,B02,R11,0,False,True,0.715,0.048,0.072,0.835,0.835,Classroom,36.7,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-28 15:00:00,B02,R11,0,False,True,0.74,0.05,0.075,0.865,0.865,Classroom,37.8,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-23 13:00:00,B02,R11,0,False,True,0.157,0.578,0.073,0.808,0.808,Classroom,33.6,holiday,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-23 14:00:00,B02,R11,0,False,True,0.167,0.595,0.075,0.837,0.837,Classroom,33.8,holiday,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-23 15:00:00,B02,R11,0,False,True,0.165,0.564,0.076,0.805,0.805,Classroom,33.6,holiday,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-23 16:00:00,B02,R11,0,False,True,0.167,0.578,0.076,0.821,0.821,Classroom,33.5,holiday,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-15 13:00:00,B02,R11,0,False,True,1.578,0.049,0.073,1.699,1.699,Classroom,33.0,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-15 14:00:00,B02,R11,0,False,True,1.58,0.049,0.073,1.702,1.702,Classroom,33.7,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-15 15:00:00,B02,R11,0,False,True,1.62,0.05,0.076,1.746,1.746,Classroom,33.4,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-28 12:00:00,B02,R11,0,False,True,0.782,0.049,0.075,0.906,0.906,Classroom,32.0,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-28 13:00:00,B02,R11,0,False,True,0.746,0.048,0.075,0.869,0.869,Classroom,32.5,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-09 17:00:00,B02,R11,0,False,True,1.16,0.39,0.272,1.823,1.823,Classroom,33.4,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-09 18:00:00,B02,R11,0,False,True,1.043,0.414,0.247,1.704,1.704,Classroom,33.5,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-09 19:00:00,B02,R11,0,False,True,1.075,0.379,0.256,1.71,1.71,Classroom,31.8,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-09 20:00:00,B02,R11,0,False,True,1.082,0.38,0.262,1.724,1.724,Classroom,30.9,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-09 21:00:00,B02,R11,0,False,True,1.101,0.405,0.259,1.765,1.765,Classroom,29.7,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-09 22:00:00,B02,R11,0,False,True,1.074,0.397,0.261,1.731,1.731,Classroom,28.4,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-20 19:00:00,B02,R11,0,False,True,0.917,0.051,0.075,1.043,1.043,Classroom,26.3,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-20 20:00:00,B02,R11,0,False,True,0.937,0.045,0.074,1.056,1.056,Classroom,24.2,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-20 21:00:00,B02,R11,0,False,True,0.951,0.049,0.073,1.073,1.073,Classroom,23.4,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-20 22:00:00,B02,R11,0,False,True,0.935,0.049,0.075,1.06,1.06,Classroom,21.5,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-20 23:00:00,B02,R11,0,False,True,0.919,0.049,0.075,1.043,1.043,Classroom,20.5,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-21 00:00:00,B02,R11,0,False,True,0.93,0.049,0.074,1.053,1.053,Classroom,19.9,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-21 01:00:00,B02,R11,0,False,True,0.923,0.049,0.074,1.047,1.047,Classroom,18.7,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-21 02:00:00,B02,R11,0,False,True,0.889,0.051,0.072,1.011,1.011,Classroom,18.1,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-21 21:00:00,B02,R11,0,False,True,1.149,0.049,0.074,1.272,1.272,Classroom,22.9,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-21 22:00:00,B02,R11,0,False,True,1.18,0.048,0.073,1.301,1.301,Classroom,22.1,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-21 23:00:00,B02,R11,0,False,True,1.148,0.049,0.072,1.269,1.269,Classroom,21.0,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-22 00:00:00,B02,R11,0,False,True,1.132,0.049,0.072,1.253,1.253,Classroom,22.6,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-22 01:00:00,B02,R11,0,False,True,1.112,0.048,0.075,1.236,1.236,Classroom,21.7,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-22 02:00:00,B02,R11,0,False,True,1.115,0.049,0.07,1.233,1.233,Classroom,21.2,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-22 03:00:00,B02,R11,0,False,True,1.204,0.049,0.073,1.327,1.327,Classroom,21.1,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-22 04:00:00,B02,R11,0,False,True,1.153,0.048,0.074,1.274,1.274,Classroom,21.7,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-29 12:00:00,B02,R12,0,False,True,0.198,0.594,0.077,0.869,0.869,Classroom,39.6,break,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-29 13:00:00,B02,R12,0,False,True,0.211,0.572,0.077,0.86,0.86,Classroom,40.9,break,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-30 18:00:00,B02,R12,0,False,True,0.717,0.248,0.19,1.154,1.154,Classroom,40.0,holiday,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-30 19:00:00,B02,R12,0,False,True,0.715,0.238,0.175,1.128,1.128,Classroom,39.7,holiday,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-30 20:00:00,B02,R12,0,False,True,0.698,0.246,0.187,1.131,1.131,Classroom,37.7,holiday,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-30 21:00:00,B02,R12,0,False,True,0.703,0.248,0.193,1.143,1.143,Classroom,36.6,holiday,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-30 22:00:00,B02,R12,0,False,True,0.702,0.252,0.175,1.13,1.13,Classroom,36.2,holiday,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-30 23:00:00,B02,R12,0,False,True,0.693,0.231,0.189,1.114,1.114,Classroom,34.8,holiday,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-01 00:00:00,B02,R12,0,False,True,0.717,0.251,0.184,1.152,1.152,Classroom,33.6,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-08 21:00:00,B02,R12,0,False,True,1.143,0.054,0.079,1.276,1.276,Classroom,27.0,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-08 22:00:00,B02,R12,0,False,True,1.134,0.05,0.079,1.264,1.264,Classroom,25.8,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-08 23:00:00,B02,R12,0,False,True,1.093,0.053,0.08,1.226,1.226,Classroom,23.9,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-09 00:00:00,B02,R12,0,False,True,1.164,0.053,0.075,1.292,1.292,Classroom,23.5,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-09 01:00:00,B02,R12,0,False,True,1.11,0.053,0.077,1.241,1.241,Classroom,22.0,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-09 02:00:00,B02,R12,0,False,True,1.096,0.053,0.076,1.224,1.224,Classroom,21.8,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-09 03:00:00,B02,R12,0,False,True,1.13,0.053,0.076,1.259,1.259,Classroom,22.3,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-09 04:00:00,B02,R12,0,False,True,1.143,0.052,0.077,1.272,1.272,Classroom,22.2,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-27 10:00:00,B02,R13,0,False,True,1.282,0.052,0.222,1.557,1.557,Lab,31.3,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-27 11:00:00,B02,R13,0,False,True,1.268,0.052,0.226,1.547,1.547,Lab,33.2,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-27 12:00:00,B02,R13,0,False,True,1.213,0.052,0.231,1.496,1.496,Lab,33.5,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-27 13:00:00,B02,R13,0,False,True,1.196,0.05,0.225,1.472,1.472,Lab,35.2,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-27 14:00:00,B02,R13,0,False,True,1.205,0.057,0.224,1.486,1.486,Lab,35.7,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-03 11:00:00,B02,R13,0,False,True,0.224,0.051,0.585,0.86,0.86,Lab,34.6,weekend,EQUIPMENT_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-03 12:00:00,B02,R13,0,False,True,0.222,0.052,0.586,0.861,0.861,Lab,35.3,weekend,EQUIPMENT_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-03 13:00:00,B02,R13,0,False,True,0.224,0.055,0.604,0.883,0.883,Lab,35.8,weekend,EQUIPMENT_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-04 19:00:00,B02,R13,0,False,True,1.922,0.052,0.221,2.194,2.194,Lab,29.6,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-04 20:00:00,B02,R13,0,False,True,1.945,0.051,0.221,2.216,2.216,Lab,28.7,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-04 21:00:00,B02,R13,0,False,True,1.935,0.049,0.221,2.205,2.205,Lab,27.5,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-04 22:00:00,B02,R13,0,False,True,2.018,0.051,0.207,2.277,2.277,Lab,26.6,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-04 23:00:00,B02,R13,0,False,True,1.904,0.05,0.237,2.191,2.191,Lab,25.2,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-05 00:00:00,B02,R13,0,False,True,1.91,0.053,0.225,2.188,2.188,Lab,24.7,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-20 19:00:00,B02,R13,0,False,True,0.185,0.728,0.218,1.131,1.131,Lab,26.5,weekend,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-20 20:00:00,B02,R13,0,False,True,0.185,0.736,0.221,1.141,1.141,Lab,24.8,weekend,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-20 21:00:00,B02,R13,0,False,True,0.182,0.688,0.215,1.085,1.085,Lab,24.2,weekend,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-20 22:00:00,B02,R13,0,False,True,0.176,0.711,0.221,1.109,1.109,Lab,23.1,weekend,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-20 23:00:00,B02,R13,0,False,True,0.163,0.729,0.237,1.129,1.129,Lab,21.5,weekend,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-21 00:00:00,B02,R13,0,False,True,0.165,0.686,0.233,1.084,1.084,Lab,18.6,weekend,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-05-31 21:00:00,B02,R14,0,False,True,1.15,0.462,0.974,2.585,2.585,Lab,29.3,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-05-31 22:00:00,B02,R14,0,False,True,1.297,0.467,0.95,2.715,2.715,Lab,27.9,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-05-31 23:00:00,B02,R14,0,False,True,1.164,0.466,0.972,2.601,2.601,Lab,26.0,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-01 00:00:00,B02,R14,0,False,True,1.183,0.473,0.933,2.589,2.589,Lab,24.5,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-01 01:00:00,B02,R14,0,False,True,1.163,0.485,0.932,2.58,2.58,Lab,24.6,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-10 09:00:00,B02,R14,0,False,True,0.73,0.066,0.279,1.075,1.075,Lab,31.1,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-10 10:00:00,B02,R14,0,False,True,0.667,0.063,0.271,1.001,1.001,Lab,31.8,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-10 11:00:00,B02,R14,0,False,True,0.722,0.064,0.271,1.057,1.057,Lab,33.1,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-10 12:00:00,B02,R14,0,False,True,0.692,0.064,0.281,1.038,1.038,Lab,35.0,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-10 13:00:00,B02,R14,0,False,True,0.707,0.064,0.271,1.041,1.041,Lab,34.6,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-06 19:00:00,B02,R14,0,False,True,1.78,0.061,0.28,2.121,2.121,Lab,27.1,holiday,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-06 20:00:00,B02,R14,0,False,True,1.748,0.065,0.268,2.082,2.082,Lab,26.2,holiday,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-06 21:00:00,B02,R14,0,False,True,1.663,0.064,0.275,2.002,2.002,Lab,25.3,holiday,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-06 22:00:00,B02,R14,0,False,True,1.683,0.063,0.273,2.019,2.019,Lab,23.7,holiday,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-06 23:00:00,B02,R14,0,False,True,1.687,0.065,0.27,2.023,2.023,Lab,21.9,holiday,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-07 00:00:00,B02,R14,0,False,True,1.76,0.064,0.256,2.079,2.079,Lab,21.2,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-07 01:00:00,B02,R14,0,False,True,1.777,0.063,0.285,2.125,2.125,Lab,20.4,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-07 02:00:00,B02,R14,0,False,True,1.767,0.064,0.285,2.116,2.116,Lab,20.6,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-09 09:00:00,B02,R14,0,False,True,0.159,0.439,0.283,0.882,0.882,Lab,27.1,weekend,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-09 10:00:00,B02,R14,0,False,True,0.16,0.446,0.268,0.874,0.874,Lab,27.8,weekend,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-09 11:00:00,B02,R14,0,False,True,0.164,0.469,0.267,0.899,0.899,Lab,29.4,weekend,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-09 12:00:00,B02,R14,0,False,True,0.158,0.464,0.279,0.901,0.901,Lab,30.3,weekend,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-09 13:00:00,B02,R14,0,False,True,0.165,0.451,0.274,0.889,0.889,Lab,30.5,weekend,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-09 14:00:00,B02,R14,0,False,True,0.172,0.465,0.27,0.907,0.907,Lab,31.3,weekend,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-09 15:00:00,B02,R14,0,False,True,0.166,0.443,0.285,0.895,0.895,Lab,32.5,weekend,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-09 16:00:00,B02,R14,0,False,True,0.181,0.461,0.28,0.922,0.922,Lab,31.8,weekend,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-14 20:00:00,B02,R14,0,False,True,1.722,0.652,1.256,3.63,3.63,Lab,26.0,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-14 21:00:00,B02,R14,0,False,True,1.704,0.679,1.263,3.646,3.646,Lab,24.2,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-25 20:00:00,B02,R14,0,False,True,1.273,0.065,0.281,1.619,1.619,Lab,24.7,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-25 21:00:00,B02,R14,0,False,True,1.283,0.06,0.293,1.635,1.635,Lab,24.2,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-25 22:00:00,B02,R14,0,False,True,1.304,0.062,0.295,1.661,1.661,Lab,22.9,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-25 23:00:00,B02,R14,0,False,True,1.267,0.061,0.269,1.596,1.596,Lab,21.5,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-26 00:00:00,B02,R14,0,False,True,1.292,0.066,0.282,1.64,1.64,Lab,22.0,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-26 21:00:00,B02,R14,0,False,True,1.72,0.666,1.261,3.647,3.647,Lab,26.1,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-26 22:00:00,B02,R14,0,False,True,1.601,0.673,1.273,3.546,3.546,Lab,24.2,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-26 23:00:00,B02,R14,0,False,True,1.703,0.624,1.31,3.637,3.637,Lab,22.9,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-27 00:00:00,B02,R14,0,False,True,1.705,0.694,1.252,3.651,3.651,Lab,21.7,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-06 20:00:00,B02,R14,0,False,True,1.13,0.061,0.276,1.468,1.468,Lab,25.8,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-06 21:00:00,B02,R14,0,False,True,1.138,0.066,0.271,1.475,1.475,Lab,25.1,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-06 22:00:00,B02,R14,0,False,True,1.013,0.062,0.285,1.36,1.36,Lab,23.5,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-06 23:00:00,B02,R14,0,False,True,1.065,0.063,0.281,1.408,1.408,Lab,21.7,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-07 00:00:00,B02,R14,0,False,True,1.081,0.063,0.268,1.411,1.411,Lab,20.3,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-07 01:00:00,B02,R14,0,False,True,1.16,0.063,0.274,1.497,1.497,Lab,19.8,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-07 02:00:00,B02,R14,0,False,True,1.137,0.064,0.264,1.465,1.465,Lab,19.4,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-07 03:00:00,B02,R14,0,False,True,1.111,0.061,0.295,1.467,1.467,Lab,18.7,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-06 09:00:00,B02,R15,0,False,True,1.83,0.052,0.252,2.135,2.135,Lab,29.5,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-06 10:00:00,B02,R15,0,False,True,1.762,0.052,0.256,2.069,2.069,Lab,29.8,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-06 11:00:00,B02,R15,0,False,True,1.862,0.055,0.266,2.183,2.183,Lab,31.0,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-06 12:00:00,B02,R15,0,False,True,1.84,0.054,0.252,2.146,2.146,Lab,32.9,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-05 12:00:00,B02,R15,0,False,True,0.913,0.056,0.258,1.228,1.228,Lab,32.2,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-05 13:00:00,B02,R15,0,False,True,0.919,0.053,0.243,1.216,1.216,Lab,33.0,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-05 14:00:00,B02,R15,0,False,True,0.973,0.056,0.271,1.3,1.3,Lab,33.3,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-05 15:00:00,B02,R15,0,False,True,0.973,0.058,0.247,1.278,1.278,Lab,34.0,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-05 16:00:00,B02,R15,0,False,True,0.988,0.057,0.252,1.296,1.296,Lab,33.7,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-05 17:00:00,B02,R15,0,False,True,0.962,0.054,0.254,1.27,1.27,Lab,33.1,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-05 18:00:00,B02,R15,0,False,True,1.008,0.057,0.258,1.323,1.323,Lab,32.2,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-05 19:00:00,B02,R15,0,False,True,1.005,0.056,0.247,1.308,1.308,Lab,31.6,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-06 09:00:00,B02,R15,0,False,True,1.781,0.682,1.382,3.845,3.845,Lab,29.9,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-06 10:00:00,B02,R15,0,False,True,1.802,0.67,1.345,3.816,3.816,Lab,31.0,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-30 17:00:00,B02,R15,0,False,True,0.174,0.467,0.254,0.895,0.895,Lab,32.2,break,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-30 18:00:00,B02,R15,0,False,True,0.163,0.431,0.243,0.836,0.836,Lab,30.5,break,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-30 19:00:00,B02,R15,0,False,True,0.175,0.458,0.254,0.887,0.887,Lab,30.4,break,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-30 20:00:00,B02,R15,0,False,True,0.162,0.446,0.254,0.862,0.862,Lab,29.9,break,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-10 14:00:00,B02,R15,0,False,True,1.402,0.509,1.015,2.926,2.926,Lab,32.5,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-10 15:00:00,B02,R15,0,False,True,1.388,0.505,1.024,2.917,2.917,Lab,34.4,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-10 16:00:00,B02,R15,0,False,True,1.371,0.497,1.005,2.872,2.872,Lab,32.8,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-10 17:00:00,B02,R15,0,False,True,1.339,0.506,1.011,2.856,2.856,Lab,33.1,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-06 11:00:00,B02,R16,0,False,True,2.383,1.0,0.556,3.939,3.939,Lecture Hall,31.0,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-06 12:00:00,B02,R16,0,False,True,2.458,1.018,0.529,4.006,4.006,Lecture Hall,32.9,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-06 13:00:00,B02,R16,0,False,True,2.409,1.035,0.541,3.986,3.986,Lecture Hall,33.1,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-06 14:00:00,B02,R16,0,False,True,2.436,1.054,0.553,4.043,4.043,Lecture Hall,34.2,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-06 15:00:00,B02,R16,0,False,True,2.539,1.051,0.553,4.143,4.143,Lecture Hall,33.7,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-06 16:00:00,B02,R16,0,False,True,2.656,1.032,0.546,4.235,4.235,Lecture Hall,34.3,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-06 17:00:00,B02,R16,0,False,True,2.421,0.992,0.561,3.975,3.975,Lecture Hall,33.2,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-11 21:00:00,B02,R16,0,False,True,2.484,1.082,0.534,4.1,4.1,Lecture Hall,30.5,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-11 22:00:00,B02,R16,0,False,True,2.391,1.044,0.528,3.963,3.963,Lecture Hall,30.0,exam,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-16 17:00:00,B02,R16,0,False,True,0.298,0.692,0.096,1.086,1.086,Lecture Hall,34.3,exam,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-16 18:00:00,B02,R16,0,False,True,0.297,0.728,0.099,1.124,1.124,Lecture Hall,33.2,exam,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-16 09:00:00,B02,R16,0,False,True,2.555,1.108,0.611,4.275,4.275,Lecture Hall,31.4,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-16 10:00:00,B02,R16,0,False,True,2.711,1.193,0.619,4.522,4.522,Lecture Hall,33.8,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-11 21:00:00,B02,R16,0,False,True,0.263,0.08,0.513,0.856,0.856,Lecture Hall,24.5,regular,EQUIPMENT_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-11 22:00:00,B02,R16,0,False,True,0.254,0.081,0.528,0.863,0.863,Lecture Hall,24.0,regular,EQUIPMENT_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-11 23:00:00,B02,R16,0,False,True,0.242,0.081,0.501,0.824,0.824,Lecture Hall,23.4,regular,EQUIPMENT_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-12 00:00:00,B02,R16,0,False,True,0.228,0.083,0.517,0.828,0.828,Lecture Hall,19.8,regular,EQUIPMENT_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-12 01:00:00,B02,R16,0,False,True,0.221,0.084,0.513,0.818,0.818,Lecture Hall,19.0,regular,EQUIPMENT_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-12 02:00:00,B02,R16,0,False,True,0.22,0.083,0.515,0.818,0.818,Lecture Hall,18.6,regular,EQUIPMENT_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-12 03:00:00,B02,R16,0,False,True,0.223,0.082,0.508,0.813,0.813,Lecture Hall,19.1,regular,EQUIPMENT_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-14 16:00:00,B02,R16,0,False,True,0.288,0.707,0.101,1.096,1.096,Lecture Hall,30.8,weekend,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-14 17:00:00,B02,R16,0,False,True,0.272,0.752,0.1,1.124,1.124,Lecture Hall,30.7,weekend,LIGHTS_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-13 13:00:00,B03,R17,0,False,True,0.637,0.26,0.461,1.358,1.358,Office,35.7,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-13 14:00:00,B03,R17,0,False,True,0.672,0.24,0.425,1.337,1.337,Office,36.7,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-13 15:00:00,B03,R17,0,False,True,0.661,0.242,0.44,1.342,1.342,Office,35.5,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-13 16:00:00,B03,R17,0,False,True,0.691,0.25,0.445,1.387,1.387,Office,35.9,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-13 17:00:00,B03,R17,0,False,True,0.649,0.256,0.451,1.356,1.356,Office,35.5,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-13 18:00:00,B03,R17,0,False,True,0.644,0.236,0.433,1.313,1.313,Office,34.1,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-01 09:00:00,B03,R17,0,False,True,0.641,0.248,0.432,1.321,1.321,Office,32.0,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-01 10:00:00,B03,R17,0,False,True,1.041,0.406,0.68,2.127,2.127,Office,33.0,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-01 11:00:00,B03,R17,0,False,True,1.034,0.388,0.675,2.097,2.097,Office,34.2,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-01 12:00:00,B03,R17,0,False,True,0.506,0.183,0.339,1.028,1.028,Office,35.0,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-01 13:00:00,B03,R17,0,False,True,0.499,0.19,0.353,1.043,1.043,Office,36.2,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-01 14:00:00,B03,R17,0,False,True,0.487,0.19,0.341,1.018,1.018,Office,36.3,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-01 15:00:00,B03,R17,0,False,True,0.547,0.182,0.354,1.082,1.082,Office,36.7,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-01 16:00:00,B03,R17,0,False,True,0.528,0.196,0.356,1.08,1.08,Office,36.8,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-01 17:00:00,B03,R17,0,False,True,0.476,0.19,0.352,1.018,1.018,Office,35.7,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-19 14:00:00,B03,R17,0,False,True,0.523,0.208,0.406,1.136,1.136,Office,32.8,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-19 15:00:00,B03,R17,0,False,True,0.561,0.216,0.375,1.152,1.152,Office,32.8,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-19 16:00:00,B03,R17,0,False,True,0.512,0.204,0.378,1.094,1.094,Office,31.9,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-22 19:00:00,B03,R17,0,False,True,0.586,0.225,0.397,1.208,1.208,Office,28.6,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-22 20:00:00,B03,R17,0,False,True,0.602,0.23,0.407,1.239,1.239,Office,27.6,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-22 21:00:00,B03,R17,0,False,True,0.588,0.222,0.408,1.219,1.219,Office,26.9,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-22 22:00:00,B03,R17,0,False,True,0.559,0.22,0.399,1.178,1.178,Office,24.9,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-22 23:00:00,B03,R17,0,False,True,0.551,0.213,0.396,1.16,1.16,Office,22.7,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-23 00:00:00,B03,R17,0,False,True,0.556,0.217,0.406,1.179,1.179,Office,21.2,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-23 01:00:00,B03,R17,0,False,True,0.555,0.217,0.422,1.193,1.193,Office,21.5,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-23 02:00:00,B03,R17,0,False,True,0.562,0.236,0.413,1.211,1.211,Office,20.3,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-30 17:00:00,B03,R18,0,False,True,0.513,0.184,0.359,1.055,1.055,Office,41.5,holiday,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-30 18:00:00,B03,R18,0,False,True,0.518,0.182,0.356,1.056,1.056,Office,40.0,holiday,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-30 19:00:00,B03,R18,0,False,True,0.513,0.175,0.345,1.034,1.034,Office,39.7,holiday,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-30 20:00:00,B03,R18,0,False,True,0.521,0.192,0.354,1.068,1.068,Office,37.7,holiday,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-30 21:00:00,B03,R18,0,False,True,0.491,0.186,0.355,1.032,1.032,Office,36.6,holiday,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-16 15:00:00,B03,R18,0,False,True,0.712,0.274,0.528,1.513,1.513,Office,36.6,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-16 16:00:00,B03,R18,0,False,True,0.753,0.276,0.515,1.544,1.544,Office,37.1,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-16 17:00:00,B03,R18,0,False,True,0.735,0.268,0.489,1.491,1.491,Office,35.7,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-03 13:00:00,B03,R18,0,False,True,0.583,0.224,0.431,1.237,1.237,Office,30.6,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-03 14:00:00,B03,R18,0,False,True,0.647,0.232,0.435,1.314,1.314,Office,31.3,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-03 15:00:00,B03,R18,0,False,True,0.628,0.227,0.396,1.252,1.252,Office,31.5,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-03 16:00:00,B03,R18,0,False,True,0.621,0.237,0.42,1.278,1.278,Office,32.0,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-03 17:00:00,B03,R18,0,False,True,0.632,0.23,0.439,1.302,1.302,Office,30.5,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-03 18:00:00,B03,R18,0,False,True,0.604,0.233,0.429,1.265,1.265,Office,29.9,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-20 19:00:00,B03,R19,0,False,True,0.747,0.041,0.104,0.892,0.892,Office,30.6,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-20 20:00:00,B03,R19,0,False,True,0.72,0.04,0.102,0.863,0.863,Office,28.6,break,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-20 17:00:00,B03,R20,0,False,True,0.69,0.039,0.115,0.845,0.845,Office,33.2,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-20 19:00:00,B03,R20,0,False,True,0.703,0.038,0.112,0.853,0.853,Office,31.6,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-20 20:00:00,B03,R20,0,False,True,0.653,0.04,0.11,0.803,0.803,Office,29.6,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-20 21:00:00,B03,R20,0,False,True,0.692,0.04,0.115,0.847,0.847,Office,28.6,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-06-20 22:00:00,B03,R20,0,False,True,0.675,0.04,0.109,0.825,0.825,Office,27.3,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-27 21:00:00,B03,R20,0,False,True,0.53,0.196,0.405,1.13,1.13,Office,27.5,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-27 22:00:00,B03,R20,0,False,True,0.535,0.192,0.393,1.121,1.121,Office,26.3,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-27 23:00:00,B03,R20,0,False,True,0.507,0.187,0.386,1.08,1.08,Office,25.1,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-09-28 00:00:00,B03,R20,0,False,True,0.52,0.193,0.383,1.096,1.096,Office,25.9,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-14 18:00:00,B03,R20,0,False,True,0.734,0.04,0.112,0.886,0.886,Office,28.2,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-14 19:00:00,B03,R20,0,False,True,0.682,0.041,0.112,0.835,0.835,Office,26.6,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-14 20:00:00,B03,R20,0,False,True,0.707,0.038,0.119,0.864,0.864,Office,26.0,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-14 21:00:00,B03,R20,0,False,True,0.709,0.039,0.116,0.865,0.865,Office,24.2,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-14 22:00:00,B03,R20,0,False,True,0.709,0.04,0.122,0.871,0.871,Office,23.1,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-14 23:00:00,B03,R20,0,False,True,0.695,0.038,0.116,0.849,0.849,Office,21.9,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-15 00:00:00,B03,R20,0,False,True,0.677,0.038,0.111,0.826,0.826,Office,23.4,regular,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-05 17:00:00,B03,R21,0,False,True,0.553,0.198,0.382,1.132,1.132,Office,33.1,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-05 18:00:00,B03,R21,0,False,True,0.561,0.2,0.379,1.141,1.141,Office,32.2,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-05 19:00:00,B03,R21,0,False,True,0.561,0.205,0.415,1.181,1.181,Office,31.6,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-05 20:00:00,B03,R21,0,False,True,0.556,0.195,0.386,1.137,1.137,Office,30.0,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-19 17:00:00,B03,R22,0,False,True,0.621,0.219,0.455,1.295,1.295,Office,35.2,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-19 18:00:00,B03,R22,0,False,True,0.616,0.23,0.45,1.295,1.295,Office,34.3,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-07-19 19:00:00,B03,R22,0,False,True,0.603,0.213,0.427,1.243,1.243,Office,33.5,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-10 12:00:00,B03,R23,0,False,True,0.759,0.286,0.33,1.375,1.375,Meeting Room,34.4,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-10 13:00:00,B03,R23,0,False,True,0.781,0.29,0.334,1.405,1.405,Meeting Room,35.7,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-10 14:00:00,B03,R23,0,False,True,0.774,0.287,0.322,1.383,1.383,Meeting Room,36.5,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-10 15:00:00,B03,R23,0,False,True,0.796,0.288,0.327,1.411,1.411,Meeting Room,36.6,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-10 16:00:00,B03,R23,0,False,True,0.807,0.298,0.338,1.442,1.442,Meeting Room,36.1,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-08-10 17:00:00,B03,R23,0,False,True,0.794,0.277,0.344,1.415,1.415,Meeting Room,35.4,break,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-10 20:00:00,B03,R23,0,False,True,0.698,0.249,0.279,1.226,1.226,Meeting Room,26.8,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-10 21:00:00,B03,R23,0,False,True,0.64,0.492,0.285,1.417,1.417,Meeting Room,24.8,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-10 22:00:00,B03,R23,0,False,True,0.658,0.463,0.288,1.409,1.409,Meeting Room,23.4,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-10 23:00:00,B03,R23,0,False,True,0.669,0.463,0.297,1.429,1.429,Meeting Room,22.8,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-11 00:00:00,B03,R23,0,False,True,0.62,0.458,0.28,1.357,1.357,Meeting Room,19.9,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-11 01:00:00,B03,R23,0,False,True,0.66,0.467,0.293,1.42,1.42,Meeting Room,19.2,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-11 02:00:00,B03,R23,0,False,True,0.695,0.509,0.295,1.499,1.499,Meeting Room,18.9,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-20 09:00:00,B03,R23,0,False,True,0.804,0.032,0.052,0.889,0.889,Meeting Room,24.0,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-20 10:00:00,B03,R23,0,False,True,0.742,0.031,0.049,0.823,0.823,Meeting Room,24.9,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-20 11:00:00,B03,R23,0,False,True,0.767,0.033,0.052,0.853,0.853,Meeting Room,27.0,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-20 12:00:00,B03,R23,0,False,True,0.772,0.031,0.052,0.855,0.855,Meeting Room,27.8,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-20 13:00:00,B03,R23,0,False,True,0.781,0.034,0.049,0.864,0.864,Meeting Room,28.4,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-20 14:00:00,B03,R23,0,False,True,0.77,0.032,0.052,0.854,0.854,Meeting Room,29.5,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-20 15:00:00,B03,R23,0,False,True,0.788,0.032,0.05,0.87,0.87,Meeting Room,28.3,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-20 16:00:00,B03,R23,0,False,True,0.828,0.033,0.052,0.914,0.914,Meeting Room,28.8,weekend,HVAC_LEFT_ON,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-11 18:00:00,B03,R24,0,False,True,0.566,0.218,0.248,1.032,1.032,Meeting Room,28.7,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-11 19:00:00,B03,R24,0,False,True,0.574,0.212,0.266,1.052,1.052,Meeting Room,27.6,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-11 20:00:00,B03,R24,0,False,True,0.564,0.216,0.262,1.042,1.042,Meeting Room,26.6,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-11 21:00:00,B03,R24,0,False,True,0.578,0.217,0.247,1.042,1.042,Meeting Room,24.5,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-10-11 22:00:00,B03,R24,0,False,True,0.57,0.211,0.246,1.028,1.028,Meeting Room,24.0,regular,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-13 15:00:00,B03,R24,0,False,True,0.857,0.32,0.35,1.527,1.527,Meeting Room,30.1,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-13 16:00:00,B03,R24,0,False,True,0.815,0.317,0.373,1.506,1.506,Meeting Room,29.7,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
+2026-11-13 17:00:00,B03,R24,0,False,True,0.813,0.304,0.359,1.476,1.476,Meeting Room,28.9,weekend,AFTER_HOURS_FULL,High electricity consumption outside scheduled hours with zero occupancy,High
